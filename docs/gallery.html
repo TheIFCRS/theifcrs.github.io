@@ -63,10 +63,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="The International Fossil Coral and Reef Society - Gallery">
-<meta property="og:image" content="https://theifcrs.github.io/IFCRS/images/group/modena.jpeg">
+<meta property="og:image" content="./images/group/modena.jpeg">
 <meta property="og:site-name" content="The International Fossil Coral and Reef Society">
 <meta name="twitter:title" content="The International Fossil Coral and Reef Society - Gallery">
-<meta name="twitter:image" content="https://theifcrs.github.io/IFCRS/images/group/modena.jpeg">
+<meta name="twitter:image" content="./images/group/modena.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -589,7 +589,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/theifcrs\.github\.io\/IFCRS\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

@@ -1,1 +1,0 @@
-Sitemap: https://theifcrs.github.io/IFCRS/sitemap.xml

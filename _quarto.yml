@@ -6,8 +6,6 @@ website:
   page-navigation: false
   title: "The International Fossil Coral and Reef Society"
   description: "All things fossil corals, sponges, and reef ecosystems in the broadest sense"
-  site-url: https://theifcrs.github.io/IFCRS/
-  repo-url: https://github.com/palaeoverse-community/hackathon/
   open-graph: true
   twitter-card: true
   image: "/images/twitter-card.png"
