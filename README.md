@@ -1,1 +1,1 @@
-# Interntional Coral and Reef Society website
+# International Coral and Reef Society website
