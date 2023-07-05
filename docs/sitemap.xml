@@ -1,35 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hackathon.palaeoverse.org/membership.html</loc>
-    <lastmod>2023-07-05T20:40:27.538Z</lastmod>
+    <loc>https://theifcrs.github.io/IFCRS/membership.html</loc>
+    <lastmod>2023-07-05T21:31:23.842Z</lastmod>
   </url>
   <url>
-    <loc>https://hackathon.palaeoverse.org/history.html</loc>
-    <lastmod>2023-07-05T20:40:26.801Z</lastmod>
+    <loc>https://theifcrs.github.io/IFCRS/resources.html</loc>
+    <lastmod>2023-07-05T21:31:23.116Z</lastmod>
   </url>
   <url>
-    <loc>https://hackathon.palaeoverse.org/meetings.html</loc>
-    <lastmod>2023-07-05T20:40:25.698Z</lastmod>
+    <loc>https://theifcrs.github.io/IFCRS/statute.html</loc>
+    <lastmod>2023-07-05T21:31:22.201Z</lastmod>
   </url>
   <url>
-    <loc>https://hackathon.palaeoverse.org/index.html</loc>
-    <lastmod>2023-07-05T20:40:24.965Z</lastmod>
+    <loc>https://theifcrs.github.io/IFCRS/gallery.html</loc>
+    <lastmod>2023-07-05T21:31:21.350Z</lastmod>
   </url>
   <url>
-    <loc>https://hackathon.palaeoverse.org/team.html</loc>
-    <lastmod>2023-07-05T20:40:24.632Z</lastmod>
+    <loc>https://theifcrs.github.io/IFCRS/news.html</loc>
+    <lastmod>2023-07-05T21:31:20.465Z</lastmod>
   </url>
   <url>
-    <loc>https://hackathon.palaeoverse.org/gallery.html</loc>
-    <lastmod>2023-07-05T20:40:25.316Z</lastmod>
+    <loc>https://theifcrs.github.io/IFCRS/team.html</loc>
+    <lastmod>2023-07-05T21:31:20.061Z</lastmod>
   </url>
   <url>
-    <loc>https://hackathon.palaeoverse.org/statute.html</loc>
-    <lastmod>2023-07-05T20:40:26.151Z</lastmod>
+    <loc>https://theifcrs.github.io/IFCRS/index.html</loc>
+    <lastmod>2023-07-05T21:31:20.988Z</lastmod>
   </url>
   <url>
-    <loc>https://hackathon.palaeoverse.org/resources.html</loc>
-    <lastmod>2023-07-05T20:40:27.140Z</lastmod>
+    <loc>https://theifcrs.github.io/IFCRS/meetings.html</loc>
+    <lastmod>2023-07-05T21:31:21.749Z</lastmod>
+  </url>
+  <url>
+    <loc>https://theifcrs.github.io/IFCRS/history.html</loc>
+    <lastmod>2023-07-05T21:31:22.830Z</lastmod>
+  </url>
+  <url>
+    <loc>https://theifcrs.github.io/IFCRS/proceedings.html</loc>
+    <lastmod>2023-07-05T21:31:23.507Z</lastmod>
   </url>
 </urlset>

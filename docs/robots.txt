@@ -1,1 +1,1 @@
-Sitemap: https://hackathon.palaeoverse.org/sitemap.xml
+Sitemap: https://theifcrs.github.io/IFCRS/sitemap.xml

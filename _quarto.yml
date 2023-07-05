@@ -6,23 +6,23 @@ website:
   page-navigation: false
   title: "The International Fossil Coral and Reef Society"
   description: "All things fossil corals, sponges, and reef ecosystems in the broadest sense"
-  site-url: https://hackathon.palaeoverse.org
+  site-url: https://theifcrs.github.io/IFCRS/
   repo-url: https://github.com/palaeoverse-community/hackathon/
   open-graph: true
   twitter-card: true
   image: "/images/twitter-card.png"
   page-footer:
     border: true
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; Copyright 2023, Lewis A. Jones"
+    right: "International Fossil Coral and Reef Society"
+    left: "&copy; Copyright 2023, IFCRS"
     center:
       - icon: twitter
         href: https://twitter.com/fossil_reef
         aria-label: "Twitter"
-    background: "#E0D8D6"
+    background: "lightgrey"
 
   sidebar:
-    background: "#E0D8D6"
+    background: "lightgrey"
     border: true
     logo: "images/logo.png"
     pinned: true
@@ -49,10 +49,14 @@ website:
         text: Membership
       - href: meetings.qmd
         text: Meetings
+      - href: news.qmd
+        text: News
       - href: gallery.qmd
         text: Gallery
       - href: resources.qmd
         text: Resources
+      - href: proceedings.qmd
+        text: Proceedings
 
 format:
   html:
@@ -67,6 +71,6 @@ format:
     link-external-newwindow: true
     linkcolor: "red"
     link-external-icon: false
-    fontsize: Large
+    fontsize: LARGE
 
 editor: visual

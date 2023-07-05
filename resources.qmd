@@ -3,4 +3,3 @@ title: "Resources"
 ---
 
 Resources content goes here
-
