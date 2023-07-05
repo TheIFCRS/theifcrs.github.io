@@ -1,1 +1,1 @@
-Sitemap: https://github.com/TheIFCRS/IFCRS/sitemap.xml
+Sitemap: https://theifcrs.github.io/IFCRS/sitemap.xml
