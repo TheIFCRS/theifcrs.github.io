@@ -9,7 +9,10 @@ website:
   site-url: https://theifcrs.github.io/IFCRS/
   repo-url: https://github.com/TheIFCRS/IFCRS/tree/gh-pages
   open-graph: true
-  twitter-card: true
+  twitter-card:
+    creator: "@LewisAlanJones"
+    site: "@fossil_reef"
+  favicon: "/images/logo.png"
   image: "/images/twitter-card.png"
   page-footer:
     border: true
@@ -24,7 +27,7 @@ website:
   sidebar:
     background: "lightgrey"
     border: true
-    logo: "images/logo.png"
+    logo: "/images/logo.png"
     pinned: true
     align: center
     tools:
