@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href=".//images/logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,8 +63,40 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="The International Fossil Coral and Reef Society - News">
 <meta property="og:description" content="">
 <meta property="og:site-name" content="The International Fossil Coral and Reef Society">
@@ -210,11 +244,74 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>News content goes here</p>
+<p>News to add? <a href="mailto:lewis@ifcrs.org">Get in contact</a>.</p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1700607600000" data-listing-file-modified-sort="1700649070660" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./news/20231122-Council/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./news/20231122-Council/index.html">
+<h3 class="no-anchor listing-title">
+IFCRS Council 2023–2027
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Introducing the new IFCRS Council</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./news/20231122-Council/index.html">
+<div class="listing-date">
+Nov 22, 2023
+</div>
+<div class="listing-author">
+Lewis A. Jones
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1700607600000" data-listing-file-modified-sort="1700648985583" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./news/20231122-Website/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./news/20231122-Website/index.html">
+<h3 class="no-anchor listing-title">
+Hello World!
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>New website launch</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./news/20231122-Website/index.html">
+<div class="listing-date">
+Nov 22, 2023
+</div>
+<div class="listing-author">
+Lewis A. Jones
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

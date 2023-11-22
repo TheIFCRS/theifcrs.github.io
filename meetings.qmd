@@ -7,9 +7,10 @@ toc: true
 
 |      |                                                            |
 |------|------------------------------------------------------------|
+| 2024 | Online (3^rd^ Early Career Researcher Symposium)           |
 | 2023 | [Chęciny, Poland](https://fossilcoralreefs.com)            |
-| 2022 | Online (Early Career Researcher Symposium)                 |
-| 2021 | Online (Early Career Researcher Symposium)                 |
+| 2022 | Erlangen, Germany (2^nd^ Early Career Researcher Symposium)           |
+| 2021 | Vigo, Spain & Vienna, Austria (1^st^ Early Career Researcher Symposium)    |
 | 2019 | [Modena, Italy](https://www.13thfossilcnidaria.unimore.it) |
 | 2015 | Muscat, Oman                                               |
 | 2011 | Liege, Belgium                                             |
@@ -27,5 +28,5 @@ toc: true
 # Other meetings
 
 |      |                                                                         |
-|----------------|--------------------------------------------------------|
+|-------------|-----------------------------------------------------------|
 | 2023 | Session on reefs at the upcoming [INQUA2023](https://inquaroma2023.org) |

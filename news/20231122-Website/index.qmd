@@ -1,0 +1,10 @@
+---
+title: "Hello World!"
+description: "New website launch"
+author: "Lewis A. Jones"
+date: "2023-11-22"
+---
+
+Noticed some changes? With the handover to the new IFCRS council, we have launched a new updated website. This website is now hosted via GitHub and eases the maintenance process. If you would like to see anything added to the website or some changes made, reach out to the Council's new Internet Officer, myself, [Lewis A. Jones](mailto:lewis@ifcrs.org).
+
+To wrap up, on behalf of the IFCRS, I would like to extend our huge gratitude to Cristina Krause and Wolfgang Kiessling for their previous efforts in hosting the website and keeping it up to date.

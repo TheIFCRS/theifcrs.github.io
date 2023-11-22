@@ -1,6 +1,10 @@
 ---
 title: "News"
+listing:
+  contents: news
+  sort: "date desc"
+  type: default
+  categories: false
 ---
 
-News content goes here
-
+News to add? [Get in contact](mailto:lewis@ifcrs.org).

@@ -1,0 +1,6 @@
+---
+title: "IFCRS Council 2023--2027"
+description: "Introducing the new IFCRS Council"
+author: "Lewis A. Jones"
+date: "2023-11-22"
+---

@@ -66,6 +66,7 @@ format:
     theme:
       light: [cosmo, theme.scss]
       dark: [cosmo, theme-dark.scss]
+    css: styles.css
     mainfont: "Gill Sans"
     code-copy: true
     code-overflow: wrap
