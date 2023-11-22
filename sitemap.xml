@@ -1,43 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://theifcrs.github.io/IFCRS/membership.html</loc>
-    <lastmod>2023-07-06T07:10:10.994Z</lastmod>
-  </url>
-  <url>
-    <loc>https://theifcrs.github.io/IFCRS/proceedings.html</loc>
-    <lastmod>2023-07-06T07:10:10.050Z</lastmod>
-  </url>
-  <url>
-    <loc>https://theifcrs.github.io/IFCRS/meetings.html</loc>
-    <lastmod>2023-07-06T07:10:08.614Z</lastmod>
-  </url>
-  <url>
-    <loc>https://theifcrs.github.io/IFCRS/news.html</loc>
-    <lastmod>2023-07-06T07:10:07.654Z</lastmod>
-  </url>
-  <url>
-    <loc>https://theifcrs.github.io/IFCRS/team.html</loc>
-    <lastmod>2023-07-06T07:10:06.554Z</lastmod>
+    <loc>https://theifcrs.github.io/IFCRS/news/20231122-Website/index.html</loc>
+    <lastmod>2023-11-22T10:40:23.943Z</lastmod>
   </url>
   <url>
     <loc>https://theifcrs.github.io/IFCRS/resources.html</loc>
-    <lastmod>2023-07-06T07:10:03.926Z</lastmod>
+    <lastmod>2023-11-22T10:40:23.363Z</lastmod>
   </url>
   <url>
-    <loc>https://theifcrs.github.io/IFCRS/statute.html</loc>
-    <lastmod>2023-07-06T07:10:07.234Z</lastmod>
+    <loc>https://theifcrs.github.io/IFCRS/gdpr.html</loc>
+    <lastmod>2023-11-22T10:40:22.663Z</lastmod>
   </url>
   <url>
-    <loc>https://theifcrs.github.io/IFCRS/index.html</loc>
-    <lastmod>2023-07-06T07:10:08.110Z</lastmod>
+    <loc>https://theifcrs.github.io/IFCRS/team.html</loc>
+    <lastmod>2023-11-22T10:40:21.975Z</lastmod>
   </url>
   <url>
-    <loc>https://theifcrs.github.io/IFCRS/history.html</loc>
-    <lastmod>2023-07-06T07:10:09.534Z</lastmod>
+    <loc>https://theifcrs.github.io/IFCRS/meetings.html</loc>
+    <lastmod>2023-11-22T10:40:21.091Z</lastmod>
   </url>
   <url>
     <loc>https://theifcrs.github.io/IFCRS/gallery.html</loc>
-    <lastmod>2023-07-06T07:10:10.518Z</lastmod>
+    <lastmod>2023-11-22T10:40:20.455Z</lastmod>
+  </url>
+  <url>
+    <loc>https://theifcrs.github.io/IFCRS/membership.html</loc>
+    <lastmod>2023-11-22T10:40:19.207Z</lastmod>
+  </url>
+  <url>
+    <loc>https://theifcrs.github.io/IFCRS/statute.html</loc>
+    <lastmod>2023-11-22T10:40:20.167Z</lastmod>
+  </url>
+  <url>
+    <loc>https://theifcrs.github.io/IFCRS/index.html</loc>
+    <lastmod>2023-11-22T10:40:20.739Z</lastmod>
+  </url>
+  <url>
+    <loc>https://theifcrs.github.io/IFCRS/history.html</loc>
+    <lastmod>2023-11-22T10:40:21.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://theifcrs.github.io/IFCRS/news.html</loc>
+    <lastmod>2023-11-22T10:40:22.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://theifcrs.github.io/IFCRS/proceedings.html</loc>
+    <lastmod>2023-11-22T10:40:23.003Z</lastmod>
+  </url>
+  <url>
+    <loc>https://theifcrs.github.io/IFCRS/news/20231122-Council/index.html</loc>
+    <lastmod>2023-11-22T10:40:23.639Z</lastmod>
   </url>
 </urlset>
