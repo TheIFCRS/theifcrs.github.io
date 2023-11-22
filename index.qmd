@@ -6,9 +6,17 @@ toc: true
 
 # Welcome
 
+::: grid
+::: g-col-8
 The International Fossil Coral and Reef Society was founded in the early 1970's under the name International Association for the Study of Fossil Cnidaria and Sponges. It promotes research on fossil corals, sponges and reefs in the broadest sense. The main event of the society's activities is an international symposium held every four years in a different country. The last symposium was organized in Modena, Italy in September 2019. The next will be hosted in Poland in 2023.
 
-![](./images/Red_Sea_Pleistocene.jpg){width="50%"}
+![](./images/Red_Sea_Pleistocene.jpg){width="100%"}
+:::
+
+::: g-col-4
+<a class="twitter-timeline" href="https://twitter.com/fossil_reef?ref_src=twsrc%5Etfw">Tweets by fossil_reef</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+:::
+:::
 
 # Upcoming events
 
