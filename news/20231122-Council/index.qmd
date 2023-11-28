@@ -3,4 +3,26 @@ title: "IFCRS Council 2023--2027"
 description: "Introducing the new IFCRS Council"
 author: "Lewis A. Jones"
 date: "2023-11-22"
+image: /news/20231122-Council/council-pre.jpeg
 ---
+
+It's been an incredible four years since the 13^th^ International Symposium on Fossil Cnidaria and Porifera in Modena, Italy. During that time the Society's council has achieved quite a lot including the creation of a new website, the introduction of the Early Career Researcher Symposium, and of course the online lecture series.
+
+During the 14^th^ International Fossil Coral and Reef Society symposium, the new council for the society was elected:
+
+![Old (2019--2023) and new council. From left: Angelina Ivkić, Kun Liang, Danijela Dimitrijevic, Markus Aretz, Julien Denayer, Thomas Stemann, Francesca Bosellini, Jarosław Stolarski, Nadia Santodomingo, Lewis A. Jones, and Wolfgang Kiessling.](/news/20231122-Council/council.jpeg)
+
+| Role                         | 2019                               | 2023                   |
+|----------------------|------------------------------|--------------------|
+| President                    | Francesca Bosellini                | Jarosław Stolarski     |
+| Vice President               | Jarosław Stolarski                 | Markus Aretz           |
+| Secretary                    | Markus Aretz                       | Nadia Santodomingo     |
+| Internet Officer             | Wolfgang Kiessling/Cristina Krause | Lewis Jones            |
+| Early Career Researcher Rep. | Lewis Jones                        | Danijela Dimitrijevic  |
+| Student Representative       | Angelina Ivkić                     | Role merged with above |
+| Elected council member       | Graham Young                       | Angelina Ivkić         |
+| Elected council member       | Ann Budd                           | Kun Liang              |
+| Elected council member       | Nadia Santodomingo                 | Thomas Stemann         |
+| Elected council member       | Julien Denayer                     | Julien Denayer         |
+
+Check out our [About Us](/team.qmd) page to learn more about the new council!
