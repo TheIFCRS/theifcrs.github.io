@@ -48,11 +48,11 @@ I am a Palaeobiologist at the University of Vigo, Spain. My research focuses on 
 ::: g-col-9
 **Danijela Dimitrijevic (Erlangen, Germany), Early Career Researcher representative**
 
-To fill
+I am PhD candidate at FAU Erlangen-Nürnberg in Germany. I am interested in how reef communities, corals and their traits responded to global environmental disturbances such as mass extinctions and hyperthermal events on geological time scales to help predict the future of modern reefs. To answer these questions, I use large databases such as the Paleobiology Database ([PBDB](https://paleobiodb.org/#/)), PaleoReefs Database ([PARED](https://paleo-reefs.pal.uni-erlangen.de)), Ancient Reef Traits Database ([ART](https://cnidaria.nat.uni-erlangen.de/shiny/users/nussaibah/coralDB/?fbclid=IwAR2CH4jTV3If4L61IiohXC7KmQlkmSV_mv9LhJYRCiXRPMJj9UGN7U_y2iA/)), and R programming environment. 
 :::
 
 ::: g-col-3
-Add photo
+![](./images/team/Danijela.jpeg){width="100%"}
 :::
 
 ::: g-col-9
