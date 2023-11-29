@@ -8,15 +8,32 @@ toc: true
 
 ::: grid
 ::: g-col-6
-The International Fossil Coral and Reef Society was founded in the early 1970's under the name International Association for the Study of Fossil Cnidaria and Sponges. It promotes research on fossil corals, sponges and reefs in the broadest sense. The main event of the society's activities is an international symposium held every four years in a different country. The last symposium was organized in Modena, Italy in September 2019. The next will be hosted in Poland in 2023.
+The International Fossil Coral and Reef Society was founded in the early 1970's under the name International Association for the Study of Fossil Cnidaria and Sponges. It promotes research on fossil corals, sponges and reefs in the broadest sense. The main event of the society's activities is an international symposium held every four years in a different country. The last symposium was organised in Chęciny, Poland in September 2023. The next will be hosted in Toulouse, France in 2027.
 
 ![Pleistocene fossil coral reef from the Red Sea.](./images/Red_Sea_Pleistocene.jpg){width="100%"}
 :::
+
 ::: g-col-6
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Did you know that <a href="https://twitter.com/hashtag/MesophoticReefs?src=hash&amp;ref_src=twsrc%5Etfw">#MesophoticReefs</a> have occurred over hundreds of millions of years? <br>We are happy to announce that <a href="https://twitter.com/MikoZapalski?ref_src=twsrc%5Etfw">@MikoZapalski</a> is our next guest speaker at the IFCRS Lecture Series on next Thursday 30 Nov at 15.00 UTC <a href="https://twitter.com/hashtag/fossilreef?src=hash&amp;ref_src=twsrc%5Etfw">#fossilreef</a> <a href="https://twitter.com/hashtag/palaeontology?src=hash&amp;ref_src=twsrc%5Etfw">#palaeontology</a> <a href="https://t.co/uMfN2JWx9D">pic.twitter.com/uMfN2JWx9D</a></p>&mdash; IFCRS: International Fossil Coral and Reef Society (@fossil_reef) <a href="https://twitter.com/fossil_reef/status/1727254485922427183?ref_src=twsrc%5Etfw">November 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet">
+
+<p lang="en" dir="ltr">
+
+Did you know that <a href="https://twitter.com/hashtag/MesophoticReefs?src=hash&amp;ref_src=twsrc%5Etfw">#MesophoticReefs</a> have occurred over hundreds of millions of years? <br>We are happy to announce that <a href="https://twitter.com/MikoZapalski?ref_src=twsrc%5Etfw">@MikoZapalski</a> is our next guest speaker at the IFCRS Lecture Series on next Thursday 30 Nov at 15.00 UTC <a href="https://twitter.com/hashtag/fossilreef?src=hash&amp;ref_src=twsrc%5Etfw">#fossilreef</a> <a href="https://twitter.com/hashtag/palaeontology?src=hash&amp;ref_src=twsrc%5Etfw">#palaeontology</a> <a href="https://t.co/uMfN2JWx9D">pic.twitter.com/uMfN2JWx9D</a>
+
+</p>
+
+--- IFCRS: International Fossil Coral and Reef Society (@fossil_reef) <a href="https://twitter.com/fossil_reef/status/1727254485922427183?ref_src=twsrc%5Etfw">November 22, 2023</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 :::
 :::
+
 # Upcoming events
 
+-   The IFCRS Lecture Series
 -   3^rd^ Early Career Researcher Symposium of the International Fossil Coral and Reef Society - Details coming soon!
--   European Coral Reef Symposium: 2^nd^--5^th^ July 2024. [See more.](https://ecrs2024.eu/useful-information/)
+-   European Coral Reef Symposium from the International Coral Reef Society: 2^nd^--5^th^ July 2024. [See more.](https://ecrs2024.eu/useful-information/)
