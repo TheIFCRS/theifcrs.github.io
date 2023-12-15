@@ -260,13 +260,13 @@ ul.task-list li input[type="checkbox"] {
 <strong>Professional role</strong>
 </p>
 <p><select id="Profession" name="Role"> <option value="Unselected"></option> <option value="Undergrad">Undergraduate student</option> <option value="PhD">PhD student</option> <option value="Postdoc">Postdoctoral Researcher</option> <option value="Senior">Senior Researcher</option> <option value="Emeritus">Emeritus</option> <option value="Other">Other</option> </select></p>
-<p>If you selected other, please specify: <input name="other-role" type="text" placeholder="Other" required=""><br>
+<p>If you selected other, please specify: <input name="other-role" type="text" placeholder="Other"><br>
 </p>
 <p>
 <strong>Main group of interest</strong>
 </p>
 <p><select id="study" name="Interest"> <option value="Unselected"></option> <option value="Cnidaria">Cnidaria</option> <option value="Porifera">Porifera</option> <option value="Other">Other</option> </select></p>
-<p>If you selected other, please specify: <input name="other-study" type="text" placeholder="Other" required=""><br>
+<p>If you selected other, please specify: <input name="other-study" type="text" placeholder="Other"><br>
 </p>
 <p>
 <strong>Main age of interest</strong>
@@ -284,7 +284,7 @@ ul.task-list li input[type="checkbox"] {
 <p>By submitting this form, you confirm to have read the <a href="./gdpr.html">GDPR terms and conditions</a> and the <a href="./statute.html">Statue of the IFCRS</a> and to agree to them.</p>
 <p><select id="confirm" name="Confirm"> <option value="Unselected"></option> <option value="Confirm">I agree and confirm</option> </select></p>
 <button type="submit" id="submit">
-<p>Submit</p>
+Submit
 </button>
 </form>
 
@@ -638,7 +638,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/theifcrs\.github\.io\/IFCRS\/");
+      var filterRegex = new RegExp("https:\/\/ifcrs\.org");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
