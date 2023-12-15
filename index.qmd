@@ -2,13 +2,24 @@
 title: "The International Fossil Coral and Reef Society"
 subtitle: "*Fossil corals, sponges, and reef ecosystems in the broadest sense*"
 toc: true
+page-layout: full
 ---
+
+::: grid
+::: g-col-12
+<img class="banner" src="./images/gallery/Dorlodotia.jpeg">
+<img class="banner" src="./images/gallery/Facosites.jpeg">
+<img class="banner" src="./images/gallery/Frechastrea.jpeg">
+<img class="banner" src="./images/gallery/Stromatoporoid.jpeg">
+<img class="banner" src="./images/gallery/Thamnopora.jpeg">
+:::
+:::
 
 # Welcome
 
 ::: grid
 ::: g-col-6
-The International Fossil Coral and Reef Society was founded in the early 1970's under the name International Association for the Study of Fossil Cnidaria and Sponges. It promotes research on fossil corals, sponges and reefs in the broadest sense. The main event of the society's activities is an international symposium held every four years in a different country. The last symposium was organised in Chęciny, Poland in September 2023. The next will be hosted in Toulouse, France in 2027.
+The International Fossil Coral and Reef Society was founded in the early 1970's under the name International Association for the Study of Fossil Cnidaria and Sponges. It promotes research on fossil corals, sponges, and reefs in the broadest sense. The main event of the society's activities is an international symposium held every four years. The last symposium was in Chęciny, Poland in Sept. 2023. The next will be hosted in Toulouse, France in 2027. We also host online annual early career research symposiums with the next organised by our colleagues in Chengdu & Nanjing, China (Nov. 2024).
 
 ![Pleistocene fossil coral reef from the Red Sea.](./images/Red_Sea_Pleistocene.jpg){width="100%"}
 :::
@@ -34,6 +45,6 @@ Did you know that <a href="https://twitter.com/hashtag/MesophoticReefs?src=hash&
 
 # Upcoming events
 
--   The IFCRS Lecture Series
--   3^rd^ Early Career Researcher Symposium of the International Fossil Coral and Reef Society - Details coming soon!
+-   The IFCRS Lecture Series - Details coming soon!
+-   3^rd^ IFCRS Early Career Researcher Symposium (Nov. 2023) - Details coming soon!
 -   European Coral Reef Symposium from the International Coral Reef Society: 2^nd^--5^th^ July 2024. [See more.](https://ecrs2024.eu/useful-information/)

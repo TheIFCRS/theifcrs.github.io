@@ -14,6 +14,7 @@ website:
     site: "@fossil_reef"
   favicon: "/images/logo.png"
   image: "/images/twitter-card.png"
+
   page-footer:
     border: true
     right: "International Fossil Coral and Reef Society"
@@ -76,5 +77,6 @@ format:
     linkcolor: "red"
     link-external-icon: false
     fontsize: LARGE
+    page-layout: full
 
 editor: visual

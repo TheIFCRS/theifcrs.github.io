@@ -2,11 +2,11 @@
 title: "Conference Proceedings"
 ---
 
--   [Bosellini FR, Papazzoni CA, Vescogni A (eds) 2020. Paleo-archives of Cnidaria and Porifera in space and time. Bollettino della Società Paleontologica Italiana, 59/4, 183-354.](https://www.researchgate.net/publication/347983314_Paleo-archives_of_Cnidaria_and_Porifera_in_space_and_time_Proceedings_of_the_13_th_International_Symposium_on_Fossil_Cnidaria_and_Porifera)
+-   [Bosellini FR, Papazzoni CA, Vescogni A (eds) 2020. Paleo-archives of Cnidaria and Porifera in space and time. Bollettino della Società Paleontologica Italiana, 59/4, 183-354.](./resources/proc-2020.pdf)
 
--   [Denayer J, Aretz M, Poty E (eds) 2012. Proceedings of the 11th International Symposium on Fossil Cnidaria and Sponges, Liège, August 22-26, 2011. Geologica Belgica, 15/4, 200-400.](https://popups.uliege.be/1374-8505/index.php?id=3702)
+-   [Denayer J, Aretz M, Poty E (eds) 2012. Proceedings of the 11th International Symposium on Fossil Cnidaria and Sponges, Liège, August 22-26, 2011. Geologica Belgica, 15/4, 200-400.](./resources/proc-2012.pdf)
 
--   [Kossovaya O, Somerville I (eds) 2010. Fossil corals archaeocyaths and sponges. Proceedings of the 10th International Symposium on Fossil Cnidaria and Sponges. Palaeoworld, 19, 209-434.](https://www.sciencedirect.com/journal/palaeoworld/vol/19/issue/3)
+-   [Kossovaya O, Somerville I (eds) 2010. Fossil corals archaeocyaths and sponges. Proceedings of the 10th International Symposium on Fossil Cnidaria and Sponges. Palaeoworld, 19, 209-434.](./resources/proc-2010.pdf)
 
 -   Hubmann B, Piller W (eds) 2007. Fossil Corals and Sponges. Proceedings of the 9th International Symposium on Fossil Cnidaria and Sponges, Graz 2003. Schriftenreihe der Erdwissenschaftlichen Komissionen, 17, 531 pp.
 
