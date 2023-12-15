@@ -49,13 +49,13 @@ Please register below:
 
 <select id="Profession" name="Role"> <option value="Unselected"></option> <option value="Undergrad">Undergraduate student</option> <option value="PhD">PhD student</option> <option value="Postdoc">Postdoctoral Researcher</option> <option value="Senior">Senior Researcher</option> <option value="Emeritus">Emeritus</option> <option value="Other">Other</option> </select>
 
-If you selected other, please specify: <input name="other-role" type="text" placeholder="Other" required>\
+If you selected other, please specify: <input name="other-role" type="text" placeholder="Other">\
 
 <p>**Main group of interest**</p>
 
 <select id="study" name="Interest"> <option value="Unselected"></option> <option value="Cnidaria">Cnidaria</option> <option value="Porifera">Porifera</option> <option value="Other">Other</option> </select>
 
-If you selected other, please specify: <input name="other-study" type="text" placeholder="Other" required>\
+If you selected other, please specify: <input name="other-study" type="text" placeholder="Other">\
 
 <p>**Main age of interest**</p>
 
@@ -74,9 +74,7 @@ By submitting this form, you confirm to have read the [GDPR terms and conditions
 <select id="confirm" name="Confirm"> <option value="Unselected"></option> <option value="Confirm">I agree and confirm</option> </select>
 
 <button type="submit" id="submit">
-
 Submit
-
 </button>
 
 </form>
