@@ -5,15 +5,7 @@ toc: true
 page-layout: full
 ---
 
-::: grid
-::: g-col-12
-<img class="banner" src="./images/gallery/Dorlodotia.jpeg">
-<img class="banner" src="./images/gallery/Facosites.jpeg">
-<img class="banner" src="./images/gallery/Frechastrea.jpeg">
-<img class="banner" src="./images/gallery/Stromatoporoid.jpeg">
-<img class="banner" src="./images/gallery/Thamnopora.jpeg">
-:::
-:::
+![](./images/gallery/banner.jpg)
 
 # Welcome
 
