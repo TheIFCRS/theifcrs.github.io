@@ -8,8 +8,10 @@ website:
   description: "All things fossil corals, sponges, and reef ecosystems in the broadest sense"
   site-url: https://ifcrs.org
   repo-url: https://github.com/TheIFCRS/IFCRS/tree/gh-pages
-  open-graph: true
+  open-graph:
+    image: "/images/logo.png"
   twitter-card:
+    image: "/images/logo.png"
     creator: "@LewisAlanJones"
     site: "@fossil_reef"
   favicon: "/images/logo.png"
