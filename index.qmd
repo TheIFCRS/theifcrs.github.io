@@ -5,7 +5,7 @@ toc: true
 page-layout: full
 ---
 
-![](./images/gallery/banner.jpg)
+![](./images/gallery/banner2.jpg){.lightbox group="my-gallery"}  
 
 # Welcome
 
@@ -23,5 +23,5 @@ The International Fossil Coral and Reef Society was founded in the early 1970's 
 
 # Upcoming events
 
--   Our next Lecture Series speaker is Thomas Brachert from Leipzig University. He will present "Application of coral sclerochronology to the fossil record" on Thursday 25^th^ January 2024 at 15.00 UTC. [Register for an invite link](http://tinyurl.com/IFCRS2022).
+-   Our next Lecture Series speaker is **Kun Liang** from Nanjing Institute of Geology and Palaeontology. He will present "**Introduction to Phanerozoic Coral Ecosystems in China**" on Thursday 29^th^ February 2024 at 14.00 UTC. [Register for an invite link](http://tinyurl.com/IFCRS2022).
 -   3^rd^ IFCRS Early Career Researcher Symposium (Nov. 2023) - More details coming soon!
