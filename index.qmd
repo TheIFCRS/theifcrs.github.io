@@ -7,7 +7,7 @@ page-layout: full
 
 ![](./images/gallery/banner2.jpg){.lightbox group="my-gallery"}
 
-#### [Call for submissions for the IFCRS 14^th^ Symposium Conference Proceedings (Poland, 2023)](./news/20240229-Proceedings/index.qmd)
+#### [Call for submissions for the IFCRS 14^th^ Symposium Conference Proceedings (Poland, 2023)](./news/20240229-Proceedings/)
 
 # Welcome
 
