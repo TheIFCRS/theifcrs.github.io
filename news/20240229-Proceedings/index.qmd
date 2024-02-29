@@ -1,0 +1,21 @@
+---
+title: "IFCRS Conference Proceedings"
+description: "Call for submissions!"
+author: "Jarek Stolarski"
+date: "2024-02-29"
+image: ./banner.png
+---
+
+![](./banner.png)
+
+The International Fossil Coral and Reef Society (IFCRS) invites all participants of the 14^th^ Symposium of the IFCRS (Poland, 10-16^th^ September 2023) to publish their conference presentations as contributions to the international quarterly open access journal ***Acta Paleontologica Polonica*** IF = 2.108 [https://www.app.pan.pl/home.html](https://www.app.pan.pl/home.html).   
+
+Following the conference thematic sessions we envisage that the contributions will cover the following topics: (1) Corals and climate change, (2) Coral biomineralization and skeletal proxies; (3) Challenges of coral phylogeny and taxonomy; (4) Coral paleobiology, functional morphology and photosymbiosis; (5) Fossil coral reefs: research methods; (6) Reefs in space and time, and (7) Coral paleobiodiversity patterns. Articles must not have been published previously, nor be under consideration for publication elsewhere. 
+
+Deadline for manuscript submission is: **15^th^ September 2024**
+
+General submission requirements are provided at [https://e-system.app.pan.pl/app/journal/for_authors/](https://e-system.app.pan.pl/app/journal/for_authors/). Once you have prepared your manuscript according to the instructions, please visit the online submission system [ https://e-system.app.pan.pl/app/login/]( https://e-system.app.pan.pl/app/login/). **In the cover letter please state that the submission is contribution to 14^th^ Symposium of the IFCRS.**
+
+There are no charges for submission of an article. There are no obligatory page charges for papers up to 10 typesetted pages (approximately 30 double-spaced manuscript pages, 12 points Times New Roman font; assuming no illustrations), although any financial support for publication is welcome. For longer papers, a page charge of EUR 22 (VAT included) will be requested for each page over the 10 free typesetted pages. Colour figures are free of charge.
+
+All articles are sent to an Editorial Board member for an initial assessment, and may be returned to authors without in-depth peer review. Following the Editorial Board assessment, manuscripts are sent to at least 2 independent expert consultants for peer review. Articles accepted for publication are instantly published in the forthcoming papers section.

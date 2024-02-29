@@ -5,7 +5,9 @@ toc: true
 page-layout: full
 ---
 
-![](./images/gallery/banner2.jpg){.lightbox group="my-gallery"}  
+![](./images/gallery/banner2.jpg){.lightbox group="my-gallery"}
+
+#### [Call for submissions for the IFCRS 14^th^ Symposium Conference Proceedings (Poland, 2023)]("./news/20240229-Proceedings/index.qmd")
 
 # Welcome
 
@@ -17,7 +19,21 @@ The International Fossil Coral and Reef Society was founded in the early 1970's 
 :::
 
 ::: g-col-6
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Dive into the fascinating world of Phanerozoic Coral Ecosystems in China with Prof. Kun Liang! <br>📆 29.02.2024<br>⏰ 14:00 UTC <br>📍 <a href="https://t.co/Hv5XLn7k7d">https://t.co/Hv5XLn7k7d</a><a href="https://twitter.com/hashtag/CoralEcosystems?src=hash&amp;ref_src=twsrc%5Etfw">#CoralEcosystems</a> <a href="https://twitter.com/hashtag/China?src=hash&amp;ref_src=twsrc%5Etfw">#China</a> <a href="https://twitter.com/hashtag/ScienceTalk?src=hash&amp;ref_src=twsrc%5Etfw">#ScienceTalk</a> <a href="https://twitter.com/hashtag/palaeontology?src=hash&amp;ref_src=twsrc%5Etfw">#palaeontology</a> <a href="https://twitter.com/hashtag/IFCRS?src=hash&amp;ref_src=twsrc%5Etfw">#IFCRS</a> <a href="https://t.co/9H18OlWLMU">pic.twitter.com/9H18OlWLMU</a></p>&mdash; IFCRS: International Fossil Coral and Reef Society (@fossil_reef) <a href="https://twitter.com/fossil_reef/status/1760248774918615431?ref_src=twsrc%5Etfw">February 21, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet">
+
+<p lang="en" dir="ltr">
+
+Dive into the fascinating world of Phanerozoic Coral Ecosystems in China with Prof. Kun Liang! <br>📆 29.02.2024<br>⏰ 14:00 UTC <br>📍 <a href="https://t.co/Hv5XLn7k7d">https://t.co/Hv5XLn7k7d</a><a href="https://twitter.com/hashtag/CoralEcosystems?src=hash&amp;ref_src=twsrc%5Etfw">#CoralEcosystems</a> <a href="https://twitter.com/hashtag/China?src=hash&amp;ref_src=twsrc%5Etfw">#China</a> <a href="https://twitter.com/hashtag/ScienceTalk?src=hash&amp;ref_src=twsrc%5Etfw">#ScienceTalk</a> <a href="https://twitter.com/hashtag/palaeontology?src=hash&amp;ref_src=twsrc%5Etfw">#palaeontology</a> <a href="https://twitter.com/hashtag/IFCRS?src=hash&amp;ref_src=twsrc%5Etfw">#IFCRS</a> <a href="https://t.co/9H18OlWLMU">pic.twitter.com/9H18OlWLMU</a>
+
+</p>
+
+--- IFCRS: International Fossil Coral and Reef Society (@fossil_reef) <a href="https://twitter.com/fossil_reef/status/1760248774918615431?ref_src=twsrc%5Etfw">February 21, 2024</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 :::
 :::
 
