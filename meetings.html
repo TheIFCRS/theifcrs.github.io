@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -314,9 +314,13 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>2024</td>
-<td><a href="https://ecrs2024.eu"><strong>Napoli, Italy</strong></a> (European Coral Reef Symposium 2024)</td>
+<td><a href="resources/algae/circular.pdf"><strong>Le Castella, Italy</strong></a> (13<sup>th</sup> International Symposium on Fossil Algae)</td>
 </tr>
 <tr class="even">
+<td>2024</td>
+<td><a href="https://ecrs2024.eu"><strong>Napoli, Italy</strong></a> (European Coral Reef Symposium 2024)</td>
+</tr>
+<tr class="odd">
 <td>2023</td>
 <td><a href="https://www.icrs2022.de"><strong>Bremen, Germany</strong></a> (15<sup>th</sup> International Coral Reef Symposium)</td>
 </tr>
@@ -562,6 +566,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
           // target, if specified
           link.setAttribute("target", "_blank");
           if (link.getAttribute("rel") === null) {
@@ -603,7 +612,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
