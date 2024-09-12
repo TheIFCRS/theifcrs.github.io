@@ -36,9 +36,9 @@ I am a coral-reef scientist interested in the diversity, ecology and evolution o
 :::
 
 ::: g-col-10
-**Lewis Jones (Vigo, Spain), Internet Officer**
+**Lewis Jones (London, UK), Internet Officer**
 
-I am a Palaeobiologist at the University of Vigo, Spain. My research focuses on understanding the drivers of temporal and spatial biodiversity patterns across various timescales. Primarily, my work focuses on scleractinian corals, reef systems, and other marine invertebrates. In my research, I use a range of computational techniques and integrate tools from various disciplines, including ecology and palaeoclimatology. I am currently investigating the drivers of marine biodiversity hotspots throughout the Cenozoic and reconstructing their evolutionary history.
+I am a Palaeobiologist at University College London, UK. My research focuses on understanding the drivers of temporal and spatial biodiversity patterns across various timescales. Primarily, my work focuses on scleractinian corals, reef systems, and other marine invertebrates. In my research, I use a range of computational techniques and integrate tools from various disciplines, including ecology and palaeoclimatology. I am currently investigating the drivers of marine biodiversity hotspots throughout the Cenozoic and reconstructing their evolutionary history.
 :::
 
 ::: g-col-2
