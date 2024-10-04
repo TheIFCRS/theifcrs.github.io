@@ -1,0 +1,44 @@
+---
+title: "Thomas Stemann"
+description: "Our dear colleague and friend has passed away."
+author: "IFCRS Council"
+date: "2024-10-04"
+image: ./jamaica.jpeg
+---
+
+Dear Colleagues and Friends,
+
+It is with a heavy heart that we share very sad news. Our dear colleague and friend, Thomas Stemann, passed away on the 25^th^ September 2024. Tom was a valued member of our society and left a lasting impact on all of us. He was a Lecturer in the Department of Geography and Geology at the University of the West Indies in Kingston, Jamaica. His research focused on Caribbean reef coral diversity and palaeoecological patterns from the Cretaceous through to the present. At our last International Fossil Coral and Reef Society Symposium in Poland, Tom was elected as a council member of our organisation.
+
+::: grid
+::: g-col-2
+:::
+
+::: g-col-8
+![Tom joining the council of the International Fossil Coral and Reef Society at our symposium in Poland, 2023.](./council.jpeg)
+:::
+
+::: g-col-2
+:::
+:::
+
+During this difficult time, we want to express our deepest condolences to Tom's family and loved ones, especially to his wife Eliza and his son Tom. We will do our utmost to support them in any way we can.
+
+Tom will be deeply missed, both professionally and personally.
+
+We take this opportunity to share some of the photographs members of the community have shared with us.
+
+::: grid
+::: g-col-8
+![Oxfordian of Saint Mihiel, France, 1991. Photo provided by Bernard Lathuilière.](./france.jpg)
+
+![Tom and Felix Rodriguez in the Pliocene of Jamaica, 2008. Photo provided by Aaron O'dea.](./jamaica.jpeg)
+:::
+
+::: g-col-4
+![Tom getting a quick refreshment from a shop close to the Bowden Formation, Jamaica, 2008. Photo provided by Aaron O'dea.](./refreshment.jpeg)
+:::
+
+::: g-col-4
+:::
+:::
