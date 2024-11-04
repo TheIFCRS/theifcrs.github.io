@@ -6,8 +6,8 @@ toc: true
 # International Fossil Coral and Reef Society
 
 |      |                                                                                                                                 |
-|------------------|------------------------------------------------------|
-| 2024 | **Online** - Chengdu & Nanjing, China (3^rd^ Early Career Researcher Symposium)                                                 |
+|-------------------|-----------------------------------------------------|
+| 2024 | **Online** - Chengdu & Nanjing, China (3^rd^ Early Career Researcher Symposium) - [**Details and Registration**](https://fau.zoom-x.de/meeting/register/u5Ikd-yppjsuEtCRCTMqeyFuP02iq1Msi5EQ)                                  |
 | 2023 | [**Chęciny, Poland**](https://fossilcoralreefs.com) (14^th^ International Symposium Fossil Coral and Reef Society)              |
 | 2022 | **Online** - Erlangen, Germany (2^nd^ Early Career Researcher Symposium)                                                        |
 | 2021 | **Online** - Vigo, Spain & Vienna, Austria (1^st^ Early Career Researcher Symposium)                                            |
@@ -27,10 +27,10 @@ toc: true
 
 # Other meetings
 
-|      |                                                                                            |
-|------------------|------------------------------------------------------|
-| 2024 | [**Le Castella, Italy**](resources/algae/circular.pdf) (13^th^ International Symposium on Fossil Algae)
-| 2024 | [**Napoli, Italy**](https://ecrs2024.eu) (European Coral Reef Symposium 2024)              |
-| 2023 | [**Bremen, Germany**](https://www.icrs2022.de) (15^th^ International Coral Reef Symposium) |
+|      |                                                                                                         |
+|-------------------|-----------------------------------------------------|
+| 2024 | [**Le Castella, Italy**](resources/algae/circular.pdf) (13^th^ International Symposium on Fossil Algae) |
+| 2024 | [**Napoli, Italy**](https://ecrs2024.eu) (European Coral Reef Symposium 2024)                           |
+| 2023 | [**Bremen, Germany**](https://www.icrs2022.de) (15^th^ International Coral Reef Symposium)              |
 
 **Do you have any meetings to add? [Get in contact.](mailto:lewis@ifcrs.org)**
