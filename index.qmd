@@ -7,11 +7,10 @@ page-layout: full
 
 ![](./images/gallery/banner2.jpg){.lightbox group="my-gallery"}
 
-#### [Call for submissions for the IFCRS 14^th^ Symposium Conference Proceedings (Poland, 2023)](./news/20240229-Proceedings/)
 
 # Welcome
 
-::: grid
+::::: grid
 ::: g-col-6
 The International Fossil Coral and Reef Society was founded in the early 1970's under the name International Association for the Study of Fossil Cnidaria and Sponges. It promotes research on fossil corals, sponges, and reefs in the broadest sense. The main event of the society's activities is an international symposium held every four years. The last symposium was in Chęciny, Poland in Sept. 2023. The next will be hosted in Toulouse, France in 2027. We also host online annual early career research symposiums with the next organised by our colleagues in Chengdu & Nanjing, China (Nov. 2024).
 
@@ -19,24 +18,11 @@ The International Fossil Coral and Reef Society was founded in the early 1970's 
 :::
 
 ::: g-col-6
-<blockquote class="twitter-tweet">
-
-<p lang="en" dir="ltr">
-
-Mark your calendars! Our lecture series is back! We are starting with a talk on "Evolutionary history of Jurassic corals, reefs and coral communities" by Prof. Dr. Bernard Lathuillière on the 31st of October at 15:00 UTC. 🗓️ <a href="https://t.co/l6zDjrBV2U">pic.twitter.com/l6zDjrBV2U</a>
-
-</p>
-
-— IFCRS: International Fossil Coral and Reef Society (@fossil_reef) <a href="https://twitter.com/fossil_reef/status/1846842817009570239?ref_src=twsrc%5Etfw">October 17, 2024</a>
-
-</blockquote>
-
-```{=html}
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🌊 Join us for the 3rd IFCRS Early Career Research Symposium! <br><br>📅 Date: 14 Nov 2024<br>🕙 Time: 10:00–15:40 CET<br>💻 Venue: Online (Zoom)<br>🎤 Talks by ECRs + Plenaries by Dr. S. Kershaw &amp; Dr. R. Martindale<br>🌐 Free &amp; open to all career stages!<br>Register now 👉 <a href="https://t.co/XOi4h8gbjq">https://t.co/XOi4h8gbjq</a> <a href="https://t.co/AIqWmuQ6lx">pic.twitter.com/AIqWmuQ6lx</a></p>&mdash; IFCRS: International Fossil Coral and Reef Society (@fossil_reef) <a href="https://twitter.com/fossil_reef/status/1854836193768161745?ref_src=twsrc%5Etfw">November 8, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 :::
-:::
+:::::
 
 # Upcoming events
 
--   3^rd^ IFCRS Early Career Researcher Symposium (14^th^ Nov. 2024) - [**Details and Registration**](https://fau.zoom-x.de/meeting/register/u5Ikd-yppjsuEtCRCTMqeyFuP02iq1Msi5EQ)  
+-   3^rd^ IFCRS Early Career Researcher Symposium (14^th^ Nov. 2024) - [**Details and Registration**](https://fau.zoom-x.de/meeting/register/u5Ikd-yppjsuEtCRCTMqeyFuP02iq1Msi5EQ)
+
