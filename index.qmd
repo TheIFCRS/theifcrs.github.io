@@ -7,7 +7,6 @@ page-layout: full
 
 ![](./images/gallery/banner2.jpg){.lightbox group="my-gallery"}
 
-
 # Welcome
 
 ::::: grid
@@ -18,11 +17,24 @@ The International Fossil Coral and Reef Society was founded in the early 1970's 
 :::
 
 ::: g-col-6
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🌊 Join us for the 3rd IFCRS Early Career Research Symposium! <br><br>📅 Date: 14 Nov 2024<br>🕙 Time: 10:00–15:40 CET<br>💻 Venue: Online (Zoom)<br>🎤 Talks by ECRs + Plenaries by Dr. S. Kershaw &amp; Dr. R. Martindale<br>🌐 Free &amp; open to all career stages!<br>Register now 👉 <a href="https://t.co/XOi4h8gbjq">https://t.co/XOi4h8gbjq</a> <a href="https://t.co/AIqWmuQ6lx">pic.twitter.com/AIqWmuQ6lx</a></p>&mdash; IFCRS: International Fossil Coral and Reef Society (@fossil_reef) <a href="https://twitter.com/fossil_reef/status/1854836193768161745?ref_src=twsrc%5Etfw">November 8, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet">
+
+<p lang="en" dir="ltr">
+
+🌊 Join us for the 3rd IFCRS Early Career Research Symposium! <br><br>📅 Date: 14 Nov 2024<br>🕙 Time: 10:00–15:40 CET<br>💻 Venue: Online (Zoom)<br>🎤 Talks by ECRs + Plenaries by Dr. S. Kershaw & Dr. R. Martindale<br>🌐 Free & open to all career stages!<br>Register now 👉 <a href="https://t.co/XOi4h8gbjq">https://t.co/XOi4h8gbjq</a> <a href="https://t.co/AIqWmuQ6lx">pic.twitter.com/AIqWmuQ6lx</a>
+
+</p>
+
+— IFCRS: International Fossil Coral and Reef Society (@fossil_reef) <a href="https://twitter.com/fossil_reef/status/1854836193768161745?ref_src=twsrc%5Etfw">November 8, 2024</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 :::
 :::::
 
 # Upcoming events
 
--   3^rd^ IFCRS Early Career Researcher Symposium (14^th^ Nov. 2024) - [**Details and Registration**](https://fau.zoom-x.de/meeting/register/u5Ikd-yppjsuEtCRCTMqeyFuP02iq1Msi5EQ)
-
+-   3^rd^ IFCRS Early Career Researcher Symposium (14^th^ Nov. 2024) - [**Abstract Book**](./IFCRS/resources/erc-symposium-2024.pdf)
