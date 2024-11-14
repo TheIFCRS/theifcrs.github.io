@@ -7,7 +7,7 @@ toc: true
 
 |  |  |
 |--------------------|----------------------------------------------------|
-| 2024 | **Online** - Chengdu & Nanjing, China (3^rd^ Early Career Researcher Symposium) - [**Abstract Book**](./IFCRS/resources/erc-symposium-2024.pdf) |
+| 2024 | **Online** - Chengdu & Nanjing, China (3^rd^ Early Career Researcher Symposium) - [**Abstract Book**](./resources/erc-symposium-2024.pdf) |
 | 2023 | [**Chęciny, Poland**](https://fossilcoralreefs.com) (14^th^ International Symposium Fossil Coral and Reef Society) |
 | 2022 | **Online** - Erlangen, Germany (2^nd^ Early Career Researcher Symposium) |
 | 2021 | **Online** - Vigo, Spain & Vienna, Austria (1^st^ Early Career Researcher Symposium) |

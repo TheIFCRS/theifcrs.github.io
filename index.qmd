@@ -37,4 +37,4 @@ The International Fossil Coral and Reef Society was founded in the early 1970's 
 
 # Upcoming events
 
--   3^rd^ IFCRS Early Career Researcher Symposium (14^th^ Nov. 2024) - [**Abstract Book**](./IFCRS/resources/erc-symposium-2024.pdf)
+-   3^rd^ IFCRS Early Career Researcher Symposium (14^th^ Nov. 2024) - [**Abstract Book**](./resources/erc-symposium-2024.pdf)
