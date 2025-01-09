@@ -1,10 +1,12 @@
 ---
 title: "Celebrating his reef spirit - Dr. Thomas Stemann"
-description: "Obituary for our dear colleague and friend"
+description: "Obituary for our dear colleague and friend Dr. Thomas Stemann (8 October 1962 – 25 September 2024)"
 author: "Nancy Budd, Emeritus Professor, University of Iowa"
 date: "2025-01-09"
 image: ./tom2.jpg
 ---
+
+[Read as PDF](stemann-obit.pdf)
 
 ![Tom holding a fossil coral at the 14th IFCRS fieldwork in Poland, September 2023. Photo by J. Stolarski.](tom1.jpg){fig-align="left" width="35%"}
 
