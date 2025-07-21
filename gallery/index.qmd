@@ -1,0 +1,66 @@
+---
+title: "Gallery"
+title-block-banner: true
+---
+
+### Chęciny, Poland - 2023
+
+::: {.grid}
+
+::: {.g-col-6}
+
+![](images/poland.jpg)
+
+Delegate group photo - 14^th^ International Symposium Fossil Coral and Reef Society, 10--16 September 2023, European Centre for Geological Education, Poland. Photographs from Poland are [available here ](https://fossilcoralreefs.com/?page_id=131).
+
+:::
+
+::: {.g-col-6}
+
+![](images/brian.jpg)
+
+Brian Rosen awarded with the Henri Milne Edwards Medal for his major contributions on the study of fossil corals - September 2023, European Centre for Geological Education, Poland.
+
+:::
+
+:::
+
+### Modena, Italy - 2019
+
+::: {.grid}
+
+::: {.g-col-12}
+
+![](images/modena.jpeg)
+
+Delegate group photo - 13^th^ International Symposium on Fossil Cnidaria and Porifera, 3--6 September 2019, Modena, Italy. Photographs and videos from Modena are [available here](https://www.13thfossilcnidaria.unimore.it/photo-gallery/).
+
+:::
+
+::: {.g-col-0}
+
+:::
+
+:::
+
+### Liège, Belgium - 2011
+
+::: {.grid}
+
+::: {.g-col-6}
+
+![](images/liege.jpeg)
+
+Delegate group photo - 11^th^ International Symposium on Fossil Cnidaria and Porifera, 22--26 August 2011, Liège, Belgium.
+
+:::
+
+::: {.g-col-6}
+
+![](images/Jell_Debrenne2011.JPG)
+
+John Jell and Françoise Debrenne, both awarded with the Henri Milne Edwards Medal for their major contributions on the study of the fossil Cnidaria and Porifera - August 2011, Liège, Belgium.
+
+:::
+
+:::

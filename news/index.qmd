@@ -1,0 +1,9 @@
+---
+title: "News"
+title-block-banner: true
+listing:
+  sort: "date desc"
+  type: table
+  categories: false
+  image-placeholder: ../images/logo.png
+---

@@ -16,69 +16,57 @@ website:
     site: "@fossil_reef"
   favicon: "/images/logo.png"
   image: "/images/twitter-card.png"
+  navbar:
+    title: "The International Fossil Coral and Reef Society"
+    logo: "/images/logo.png"
+    pinned: true
+    right:
+      - href: index.qmd
+        text: Home
+      - text: About
+        menu:
+           - href: council/index.qmd
+             text: Council
+           - href: statute/index.qmd
+             text: Statue
+           - href: history/index.qmd
+             text: History
+      - href: membership/index.qmd
+        text: Membership
+      - href: meetings/index.qmd
+        text: Meetings
+      - href: news/index.qmd
+        text: News
+      - href: gallery/index.qmd
+        text: Gallery
+      - href: resources/index.qmd
+        text: Resources
+      - href: proceedings/index.qmd
+        text: Proceedings
+      - text: "{{< iconify fa6-brands:bluesky >}}"
+        href: https://bsky.app/profile/ifcrs.bsky.social
+        aria-label: "Bluesky"
+
 
   page-footer:
     border: true
-    right: "International Fossil Coral and Reef Society"
-    left: "&copy; Copyright 2023, IFCRS"
+    right: "The International Fossil Coral and Reef Society"
+    left: "&copy; Copyright 2025, IFCRS"
     center:
-      - icon: twitter
-        href: https://twitter.com/fossil_reef
-        aria-label: "Twitter"
+      - text: "{{< iconify fa6-brands:bluesky >}}"
+        href: https://bsky.app/profile/ifcrs.bsky.social
+        aria-label: "Bluesky"
     background: "lightgrey"
-
-  sidebar:
-    background: "lightgrey"
-    border: true
-    logo: "/images/logo.png"
-    pinned: true
-    align: center
-    tools:
-      - icon: twitter
-        href: https://twitter.com/fossil_reef
-        text: "Twitter"
-    style: "docked"
-    search: true
-    collapse-level: 1
-    contents:
-      - href: index.qmd
-        text: Home
-      - section: About
-        contents:
-           - href: team.qmd
-             text: Council
-           - href: statute.qmd
-             text: Statue
-           - href: history.qmd
-             text: History
-      - href: membership.qmd
-        text: Membership
-      - href: meetings.qmd
-        text: Meetings
-      - href: news.qmd
-        text: News
-      - href: gallery.qmd
-        text: Gallery
-      - href: resources.qmd
-        text: Resources
-      - href: proceedings.qmd
-        text: Proceedings
 
 format:
   html:
     theme:
-      light: [cosmo, theme.scss]
-      dark: [cosmo, theme-dark.scss]
+      - cosmo
+      - brand
     css: styles.css
-    mainfont: "Gill Sans"
     code-copy: true
     code-overflow: wrap
-    toc: true
-    toc-title: "Page Contents"
+    toc: false
     link-external-newwindow: true
-    linkcolor: "red"
     link-external-icon: false
-    fontsize: LARGE
     page-layout: full
-
-editor: visual

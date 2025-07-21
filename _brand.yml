@@ -1,0 +1,47 @@
+meta:
+  name: The International Fossil Coral and Reef Society
+  link: https://ifcrs.org
+  
+logo: 
+  images:
+    logo-image: images/logo.png
+  
+color:
+  palette:
+    tomato: "#E73A18"
+    light-blue: "#BFE0E2"
+    mid-blue: "#98D3DC"
+    dark-blue: "#64BDD8"
+    light-pink: "#E4BEDB"
+    dark-pink: "#CDA6C5"
+    light-green: "#56B367"
+    dark-green: "#0D725A"
+    light-peach: "#F18661"
+    dark-peach: "#DB755A"
+    yellow: "#FEC703"
+    light-orange: "#F39200"
+    dark-orange: "#ED8D3A"
+    beige: "#EACDB9"
+    brown: "#704C32"
+    light-grey: "#EBEBEB"
+    mid-grey: "#C6C5C4"
+    dark-grey: "#575756"
+    black: "#1D1D1B"
+    white: "#FFFFFF"
+  background: white
+  foreground: dark-grey
+  primary: light-grey
+  secondary: dark-green
+
+typography:
+  fonts:
+    - family: Gill Sans
+    - family: Space Mono
+  base: 
+    family: Gill Sans
+    weight: 400
+  headings: Gill Sans
+  monospace: Space Mono
+  link:
+    color: tomato
+    decoration: underline

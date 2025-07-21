@@ -15,7 +15,9 @@ It is with a heavy heart that we share very sad news. Our dear colleague and fri
 :::
 
 ::: g-col-8
-![Tom joining the council of the International Fossil Coral and Reef Society at our symposium in Poland, 2023.](./council.jpeg)
+![](./council.jpeg)
+
+Tom joining the council of the International Fossil Coral and Reef Society at our symposium in Poland, 2023.
 :::
 
 ::: g-col-2
@@ -30,13 +32,19 @@ We take this opportunity to share some of the photographs members of the communi
 
 ::: grid
 ::: g-col-8
-![Oxfordian of Saint Mihiel, France, 1991. Photo provided by Bernard Lathuilière.](./france.jpg)
+![](./france.jpg)
 
-![Tom and Felix Rodriguez in the Pliocene of Jamaica, 2008. Photo provided by Aaron O'dea.](./jamaica.jpeg)
+Oxfordian of Saint Mihiel, France, 1991. Photo provided by Bernard Lathuilière.
+
+![](./jamaica.jpeg)
+
+Tom and Felix Rodriguez in the Pliocene of Jamaica, 2008. Photo provided by Aaron O'dea.
 :::
 
 ::: g-col-4
-![Tom getting a quick refreshment from a shop close to the Bowden Formation, Jamaica, 2008. Photo provided by Aaron O'dea.](./refreshment.jpeg)
+![](./refreshment.jpeg)
+
+Tom getting a quick refreshment from a shop close to the Bowden Formation, Jamaica, 2008. Photo provided by Aaron O'dea.
 :::
 
 ::: g-col-4

@@ -10,7 +10,25 @@ It's been an incredible four years since the 13^th^ International Symposium on F
 
 During the 14^th^ International Fossil Coral and Reef Society symposium, the new council for the society was elected:
 
-![Old (2019--2023) and new council. From left: Angelina Ivkić, Kun Liang, Danijela Dimitrijevic, Markus Aretz, Julien Denayer, Thomas Stemann, Francesca Bosellini, Jarosław Stolarski, Nadia Santodomingo, Lewis A. Jones, and Wolfgang Kiessling.](/news/20231122-Council/council.jpeg)
+::: {.grid}
+
+::: {.g-col-3}
+
+:::
+
+::: {.g-col-6}
+
+![](council.jpeg)
+
+Old (2019--2023) and new council. From left: Angelina Ivkić, Kun Liang, Danijela Dimitrijevic, Markus Aretz, Julien Denayer, Thomas Stemann, Francesca Bosellini, Jarosław Stolarski, Nadia Santodomingo, Lewis A. Jones, and Wolfgang Kiessling.
+
+:::
+
+::: {.g-col-3}
+
+:::
+
+:::
 
 | Role                         | 2019                               | 2023                   |
 |----------------------|------------------------------|--------------------|
@@ -24,5 +42,3 @@ During the 14^th^ International Fossil Coral and Reef Society symposium, the new
 | Elected council member       | Ann Budd                           | Kun Liang              |
 | Elected council member       | Nadia Santodomingo                 | Thomas Stemann         |
 | Elected council member       | Julien Denayer                     | Julien Denayer         |
-
-Check out our [About Us](/team.qmd) page to learn more about the new council!

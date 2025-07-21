@@ -1,6 +1,0 @@
----
-title: "History of the Society"
-subtitle: "By Markus Aretz"
-fig-align: left
-toc: true
----

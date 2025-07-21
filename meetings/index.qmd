@@ -1,0 +1,24 @@
+---
+title: "Meetings"
+title-block-banner: true
+---
+
+|  |  |
+|--------------------|----------------------------------------------------|
+| 2024 | **Online** - Chengdu & Nanjing, China ([3^rd^ Early Career Researcher Symposium](erc-symposium-2024.pdf)) |
+| 2023 | **Chęciny, Poland** ([14^th^ International Symposium Fossil Coral and Reef Society](https://fossilcoralreefs.com)) |
+| 2022 | **Online** - Erlangen, Germany ([2^nd^ Early Career Researcher Symposium](erc-symposium-2022.pdf)) |
+| 2021 | **Online** - Vigo, Spain & Vienna, Austria ([1^st^ Early Career Researcher Symposium](erc-symposium-2021.pdf)) |
+| 2019 | **Modena, Italy** ([13^th^ International Symposium on Fossil Cnidaria and Porifera]((https://www.13thfossilcnidaria.unimore.it))) |
+| 2015 | **Muscat, Oman** (12^th^ International Symposium on Fossil Cnidaria and Porifera) |
+| 2011 | **Liege, Belgium** (11^th^ International Symposium on Fossil Cnidaria and Porifera) |
+| 2007 | **St. Petersburg, Russia** (10^th^ International Symposium on Fossil Cnidaria and Porifera) |
+| 2003 | **Graz, Austria** (9^th^ International Symposium on Fossil Cnidaria and Porifera) |
+| 1999 | **Sendai, Japan** (8^th^ International Symposium on Fossil Cnidaria and Porifera) |
+| 1995 | **Madrid, Spain** (7^th^ International Symposium on Fossil Cnidaria and Porifera) |
+| 1991 | **Muenster, Germany** (6^th^ International Symposium on Fossil Cnidaria and Porifera) |
+| 1988 | **Brisbane, Australia** (5^th^ International Symposium on Fossil Cnidaria and Porifera) |
+| 1983 | **Washington, USA** (4^th^ International Symposium on Fossil Cnidaria and Porifera) |
+| 1979 | **Warsaw, Poland** (3^rd^ International Symposium on Fossil Cnidaria and Porifera) |
+| 1975 | **Paris, France** (2^nd^ International Symposium on Fossil Cnidaria and Porifera) |
+| 1971 | **Novosibirsk, Russia** (1^st^ International Symposium on Fossil Cnidaria and Porifera) |

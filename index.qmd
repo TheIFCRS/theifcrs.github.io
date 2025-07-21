@@ -1,40 +1,44 @@
 ---
 title: "The International Fossil Coral and Reef Society"
-subtitle: "*Fossil corals, sponges, and reef ecosystems in the broadest sense*"
-toc: true
+title-block-banner-color: white
+title-block-banner: images/banner.jpg
 page-layout: full
 ---
-
-![](./images/gallery/banner2.jpg){.lightbox group="my-gallery"}
+<style>
+h1.title {
+  color: white;
+  background-color: black;
+  padding: 10px 15px;
+  opacity: 0.85;
+  display: inline-block; /* Optional: makes background wrap just the text */
+}
+</style>
 
 # Welcome
 
-::::: grid
-::: g-col-6
-The International Fossil Coral and Reef Society was founded in the early 1970's under the name International Association for the Study of Fossil Cnidaria and Sponges. It promotes research on fossil corals, sponges, and reefs in the broadest sense. The main event of the society's activities is an international symposium held every four years. The last symposium was in Chęciny, Poland in Sept. 2023. The next will be hosted in Toulouse, France in 2027. We also host online annual early career research symposiums with the next organised by our colleagues in Chengdu & Nanjing, China (Nov. 2024).
+::: {.grid}
 
-![Pleistocene fossil coral reef from the Red Sea.](./images/Red_Sea_Pleistocene.jpg){width="100%"}
+::: {.g-col-7}
+
+The International Fossil Coral and Reef Society (IFCRS) was founded in the early 1970s under the name 'The International Association for the Study of Fossil Cnidaria and Sponges'. The Society's mission is to promote and disseminate research on fossil corals, sponges, and reefs in the broadest sense. 
+
+The Society's flagship event is an international symposium held every four years. We also host an annual online Early-Career Researcher symposium and periodic lecture series.
+
+The IFCRS is an all volunteer society and has no membership fees (it is free to join!). The Society has a long history of being a welcoming, supportive, and friendly organisation. Many of our members have made lifelong friends and colleagues through the Society.
+
+[JOIN US](membership/index.qmd){.button}
+
 :::
 
-::: g-col-6
-<blockquote class="twitter-tweet">
+::: {.g-col-5}
+![](./images/Red_Sea_Pleistocene.jpg){width="100%"}
+*Pleistocene fossil coral reef from the Red Sea.*
 
-<p lang="en" dir="ltr">
-
-🌊 Join us for the 3rd IFCRS Early Career Research Symposium! <br><br>📅 Date: 14 Nov 2024<br>🕙 Time: 10:00–15:40 CET<br>💻 Venue: Online (Zoom)<br>🎤 Talks by ECRs + Plenaries by Dr. S. Kershaw & Dr. R. Martindale<br>🌐 Free & open to all career stages!<br>Register now 👉 <a href="https://t.co/XOi4h8gbjq">https://t.co/XOi4h8gbjq</a> <a href="https://t.co/AIqWmuQ6lx">pic.twitter.com/AIqWmuQ6lx</a>
-
-</p>
-
-— IFCRS: International Fossil Coral and Reef Society (@fossil_reef) <a href="https://twitter.com/fossil_reef/status/1854836193768161745?ref_src=twsrc%5Etfw">November 8, 2024</a>
-
-</blockquote>
-
-```{=html}
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
 :::
-:::::
+
+:::
 
 # Upcoming events
 
--   3^rd^ IFCRS Early Career Researcher Symposium (14^th^ Nov. 2024) - [**Abstract Book**](./resources/erc-symposium-2024.pdf)
+- Save the date! 4^th^ IFCRS Early Career Researcher Symposium (13^th^ Nov. 2025)
+- 15^th^ International Symposium of The International Fossil Coral and Reef Society in Toulouse, France (2027)
