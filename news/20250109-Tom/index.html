@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,20 +39,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2b3e328b71be8d25427581baeb23079b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-9053dc0436132aa6ba80634c4240371e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-2dd7e721efb0bed32b87be0338dbf207.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-ada7ae42bf5dddbb81bf33d8c1863e89.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-2dd7e721efb0bed32b87be0338dbf207.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-1e788a3ece81b257f68df3021f87564a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -89,288 +86,91 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Celebrating his reef spirit - Dr.&nbsp;Thomas Stemann</li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">The International Fossil Coral and Reef Society</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../../council/index.html">
+ <span class="dropdown-text">Council</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../statute/index.html">
+ <span class="dropdown-text">Statue</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../history/index.html">
+ <span class="dropdown-text">History</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../membership/index.html"> 
+<span class="menu-text">Membership</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../meetings/index.html"> 
+<span class="menu-text">Meetings</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news/index.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../gallery/index.html"> 
+<span class="menu-text">Gallery</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resources/index.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../proceedings/index.html"> 
+<span class="menu-text">Proceedings</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/profile/ifcrs.bsky.social"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:bluesky" aria-label="Icon bluesky from fa6-brands Iconify.design set." title="Icon bluesky from fa6-brands Iconify.design set."></iconify-icon></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../../index.html" class="sidebar-logo-link">
-      <img src="../../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
-      <div class="sidebar-tools-main">
-    <a href="https://twitter.com/fossil_reef" title="Twitter" class="quarto-navigation-tool px-1" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Home</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
- <span class="menu-text">About</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../team.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Council</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../statute.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Statue</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../history.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">History</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../membership.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Membership</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../meetings.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Meetings</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../news.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">News</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../gallery.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Gallery</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../resources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Resources</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../proceedings.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Proceedings</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
-
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -384,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta column-page">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
@@ -409,51 +209,35 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><a href="stemann-obit.pdf">Read as PDF</a></p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="tom1.jpg" class="img-fluid figure-img" style="width:35.0%"></p>
-<figcaption>Tom holding a fossil coral at the 14th IFCRS fieldwork in Poland, September 2023. Photo by J. Stolarski.</figcaption>
-</figure>
-</div>
+<div class="grid">
+<div class="g-col-8">
 <p>I am tremendously saddened by the sudden and untimely passing of Tom Stemann. My recollections of Tom are during the late 1980’s and the 1990’s before his eventual faculty appointment at the University of the West Indies at Mona, Jamaica. He was a graduate student at the University of Iowa under my direction and received his PhD from Iowa in 1991. His dissertation was entitled “Evolution of the reef-coral family Agariciidae (Anthozoa: Scleractinia) in the Neogene through Recent of the Caribbean”, and it focused on the Mio-Pliocene of the Dominican Republic. Tom was a very bright student who loved fieldwork collecting fossil and living corals. As a graduate student, he was my field assistant in both the Dominican Republic and Panama. He also travelled by himself to the Dominican Republic for a month to collect agariciid fossils for his dissertation and rented a scooter to travel around. Quite an adventurous spirit! He was a quiet and creative person with a quick wit, always making us laugh, and he was open-minded and easygoing, never complaining or stressed out. I will always remember him counting his bug bites when we returned from the field each day. One day it was something like 72 bug bites. One day in the Mao Formation we had a flat tire (thorns on the road) followed by three more flat tires on the road to Puerto Plata (nails on the road). Tom and Ken Johnson quickly changed the first flat tire but had to arrange for a tire center (Centro de Gomas) to meet us and repair the three other tires. No problem – time to relax and savour a Presidente in between outcrops. Tom had a keen eye for morphology, and his dissertation tackled one of the most taxonomically challenging groups of scleractinian corals – the agariciids (six genera, 18 species). He distinguished species morphometrically by making comparisons with modern species. In fact, he was one of the first fossil coral workers to use phylogenetic analyses to examine their relationships.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="tom2.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>Tom quantifying fossil staghorn corals, Acropora, in the Dominican Republic (1989). Photo by K. Johnson.</figcaption>
-</figure>
-</div>
 <p>After he obtained his Ph.D., Tom had a postdoctoral fellowship at the University of Bern in Switzerland under the supervision of Jörn Geister. At that time, he became interested in the Paleogene of Italy and collaborated with Francesca Bosellini on Actinacis rollei. Tom also worked with me on a large collection of Eocene corals made by Robert Stewart (geologist of the Panama Canal Commission) in the Gatuncillo Formation of Panama and described five new species. On his return to Iowa from Europe, Tom joined our group examining Plio-Pleistocene turnover in Caribbean reef coral fauna. Not knowing that Jamaica would eventually become his home, Tom toured Jamaica for the first time with us in 1994 making large Plio-Pleistocene coral collections and helping with identifications. Of course, later on, upon moving to the island, he became an expert in its geology and paleontology.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="tom3.jpg" class="img-fluid figure-img" style="width:35.0%"></p>
-<figcaption>Tom walking along an outcrop at Enriquillo Valley in the Dominican Republic (1989). Photo by K. Johnson.</figcaption>
-</figure>
-</div>
 <p>Tom really enjoyed the more carefree, slow-paced lifestyle of the Caribbean, and I’m so glad he had a faculty position at the University of the West Indies. Tom was also dedicated to the IFCRS, attending most of the meetings of the society and appreciating its international orientation. He was especially honored to serve on the IFCRS council.</p>
 <p>Nancy Budd, Emeritus Professor University of Iowa, Nov.&nbsp;2024.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="tom4.png" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>Enjoying fieldwork at an Oxfordian outcrop of Saint Mihiel, France (1991). Left to right: T. Stemann, G. Melnikova, G. Boekshoten, J. Geister, and B. Lathuilière. Photo courtesy of B. Lathuilière.</figcaption>
-</figure>
 </div>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="tom5.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>Tom after he asked the Bowden beds to be excavated, Jamaica (2008). Photo by A. O’Dea.</figcaption>
-</figure>
+<div class="g-col-4">
+<p><img src="tom1.jpg" class="img-fluid"></p>
+<p>Tom holding a fossil coral at the 14th IFCRS fieldwork in Poland, September 2023. Photo by J. Stolarski.</p>
+<p><img src="tom2.jpg" class="img-fluid"></p>
+<p>Tom quantifying fossil staghorn corals, Acropora, in the Dominican Republic (1989). Photo by K. Johnson.</p>
 </div>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="tom6.png" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>Fieldwork in Jamaica (2008). Left: Tom and Felix Rodriguez studying a Pliocene coast outcrop. Right: Tom getting a quick refreshment. Photos by A. O’Dea.</figcaption>
-</figure>
 </div>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="tom7.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>Conference dinner at the Wieliczka Salt Mine in Krakow, Poland (2023). 14th IFCRS meeting. Left to right: T. Brachert, S. Goffredo, F. Bosellini, and T. Stemann. Photo by N. Santodomingo.</figcaption>
-</figure>
+<div class="grid">
+<div class="g-col-6">
+<p><img src="tom3.jpg" class="img-fluid"></p>
+<p>Tom walking along an outcrop at Enriquillo Valley in the Dominican Republic (1989). Photo by K. Johnson.</p>
+<p><img src="tom7.jpg" class="img-fluid"></p>
+<p>Conference dinner at the Wieliczka Salt Mine in Krakow, Poland (2023). 14th IFCRS meeting. Left to right: T. Brachert, S. Goffredo, F. Bosellini, and T. Stemann. Photo by N. Santodomingo.</p>
+</div>
+<div class="g-col-6">
+<p><img src="tom4.png" class="img-fluid"></p>
+<p>Enjoying fieldwork at an Oxfordian outcrop of Saint Mihiel, France (1991). Left to right: T. Stemann, G. Melnikova, G. Boekshoten, J. Geister, and B. Lathuilière. Photo courtesy of B. Lathuilière.</p>
+<p><img src="tom5.jpg" class="img-fluid"></p>
+<p>Tom after he asked the Bowden beds to be excavated, Jamaica (2008). Photo by A. O’Dea.</p>
+<p><img src="tom6.png" class="img-fluid"></p>
+<p>Fieldwork in Jamaica (2008). Left: Tom and Felix Rodriguez studying a Pliocene coast outcrop. Right: Tom getting a quick refreshment. Photos by A. O’Dea.</p>
+</div>
 </div>
 
 
@@ -461,19 +245,6 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -880,20 +651,19 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Copyright 2023, IFCRS</p>
+<p>© Copyright 2025, IFCRS</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link active" href="https://twitter.com/fossil_reef" aria-current="page">
-      <i class="bi bi-twitter" role="img" aria-label="Twitter">
-</i> 
-    </a>
+    <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/profile/ifcrs.bsky.social">
+<p><iconify-icon role="img" inline="" icon="fa6-brands:bluesky" aria-label="Icon bluesky from fa6-brands Iconify.design set." title="Icon bluesky from fa6-brands Iconify.design set."></iconify-icon></p>
+</a>
   </li>  
 </ul>
     </div>
     <div class="nav-footer-right">
-<p>International Fossil Coral and Reef Society</p>
+<p>The International Fossil Coral and Reef Society</p>
 </div>
   </div>
 </footer>
