@@ -33,8 +33,10 @@ website:
              text: History
       - href: membership/index.qmd
         text: Membership
+      - href: meetings/ecrs2025.qmd
+        text: ECRS 2025
       - href: meetings/index.qmd
-        text: Meetings
+        text: Past Meetings
       - href: news/index.qmd
         text: News
       - href: gallery/index.qmd
