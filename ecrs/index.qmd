@@ -30,6 +30,11 @@ Coral reefs are undergoing unprecedented decline under accelerating climate chan
 
 ## Invited talks
 
+### Ecosystem engineering in coral reef biodiversity hotspots throughout the Phanerozoic  
+**Alison Cribb, University of Southampton, UK**
+
+Ecosystem engineers – organisms whose activities and behaviours change resource availability to impact the overall habitability of their environments – are some of the most important keystone animals in our oceans. As reef-builders, corals are critical ecosystem engineers in our oceans today, engineering the habitats that host some of the Earth’s most important biodiversity hotspots. While the ecosystem engineering impacts of corals in biodiversity hotspots are relatively well understood today, their roles in ancient reef ecosystems for creating biodiversity hotspots are less well constrained. Here, we identify occurrences of coral reef biodiversity hotspots throughout the Phanerozoic and quantify the magnitude of reef-building ecosystem engineers’ impacts on biodiversity. Using fossil occurrences from the Paleobiology Database, we apply approaches from ecological meta-analyses to identify when coral ecosystem engineers had significantly positive impacts on biodiversity relative to other communities and regions. We also mapped occurrences of all corals, all coral-associated taxa, and those found in formations that preserve biodiversity hotspots through time and space. We find evidence for coral reef biodiversity hotspots in the Ordovician as early as the Tremadocian, becoming a major feature of tropical ecosystems by the Sandbian. However, we also find that coral reef biodiversity hotspots are not a permanent feature of the marine biosphere once they emerge. Some intervals of Earth history see near or total losses of coral reef biodiversity hotspots. We then investigated the controls on coral biodiversity hotspots to identify why some time periods are more characterised by hotspots than others. We find a unique combination of ecology, climate, and biogeography: coral reef biodiversity hotspots, perhaps unsurprisingly, require diverse coral ecosystem engineers, an abundance of tropical coastlines, and moderate climates.
+
 ### The evolution of coral photosymbiosis  
 **Jonathan Jung, Max-Planck Institute for Chemistry, Germany**
 
