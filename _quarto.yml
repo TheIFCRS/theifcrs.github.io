@@ -33,10 +33,10 @@ website:
              text: History
       - href: membership/index.qmd
         text: Membership
-      - href: ecrs/index.qmd
-        text: ECRS 2025
-      - href: meetings/index.qmd
-        text: Past Meetings
+      - text: Meetings
+        menu:
+           - href: IFCRS2027/index.qmd
+           - href: meetings/index.qmd
       - href: news/index.qmd
         text: News
       - href: gallery/index.qmd

@@ -1,12 +1,13 @@
 ---
-title: "Meetings"
+title: "Past Meetings"
 title-block-banner: true
 ---
 
 |  |  |
 |--------------------|----------------------------------------------------|
+| 2025 | **Online** - International ([4^th^ Early Career Researcher Symposium](erc-symposium-2025.pdf)) |
 | 2024 | **Online** - Chengdu & Nanjing, China ([3^rd^ Early Career Researcher Symposium](erc-symposium-2024.pdf)) |
-| 2023 | **Chęciny, Poland** ([14^th^ International Symposium Fossil Coral and Reef Society](https://fossilcoralreefs.com)) |
+| 2023 | **Chęciny, Poland** ([14^th^ International Symposium Fossil Coral and Reef Society](ifcrs-symposium-2023.pdf)) |
 | 2022 | **Online** - Erlangen, Germany ([2^nd^ Early Career Researcher Symposium](erc-symposium-2022.pdf)) |
 | 2021 | **Online** - Vigo, Spain & Vienna, Austria ([1^st^ Early Career Researcher Symposium](erc-symposium-2021.pdf)) |
 | 2019 | **Modena, Italy** ([13^th^ International Symposium on Fossil Cnidaria and Porifera]((https://www.13thfossilcnidaria.unimore.it))) |
