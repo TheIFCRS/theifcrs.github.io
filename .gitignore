@@ -3,3 +3,5 @@
 .Rhistory
 .Rproj.user
 resources/proc-1984.pdf
+
+**/*.quarto_ipynb

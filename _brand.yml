@@ -36,7 +36,9 @@ color:
 typography:
   fonts:
     - family: Gill Sans
+      source: system
     - family: Space Mono
+      source: google
   base: 
     family: Gill Sans
     weight: 400
