@@ -56,3 +56,10 @@ div {
   color: #E73A18;
 }
 
+figcaption,
+.figure-caption {
+  text-align: center;
+  color: #575756;
+  font-weight: 600;
+}
+
