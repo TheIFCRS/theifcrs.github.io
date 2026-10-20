@@ -1,65 +1,479 @@
-.navbar {
-    border: none;
-    border-bottom: 4px solid #E73A18 !important;
-  }
+/* IFCRS site styles.
+   Colours come from _brand.yml. Quarto exposes each palette entry as a
+   --brand-<name> CSS variable (ifcrs-red, ifcrs-black, red-dark, red-tint,
+   grey-light, grey-mid, reef-teal), with the original hex values as
+   fallbacks if a variable is missing. Fonts (Jost, Source Serif 4, Fira Code)
+   are loaded and applied by _brand.yml, so no font-family overrides are
+   needed here. */
 
-.nav-link {
-  font-size: 1em;
-  font-weight: 400;
+/* ---------- Base ---------- */
+
+/* Link colour comes from _brand.yml (red-dark). */
+a {
+  font-weight: 300;
 }
 
-.navbar-brand > img {
-  max-height: 5vw;
+/* Full-bleed panels extend past the page edge, so clip the horizontal
+   overflow they would otherwise cause. */
+body {
+  overflow-x: clip;
+}
+
+main.content {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#quarto-content > * {
+  padding-top: 0;
+}
+
+/* Justified text only on wider screens, and only for paragraphs in the main
+   content (a blanket `div` rule would also justify the navbar, grids and
+   captions). hyphens: auto needs `lang: en-GB` in _quarto.yml. */
+@media (min-width: 768px) {
+  main.content p {
+    text-align: justify;
+    hyphens: auto;
+  }
+}
+
+/* ---------- Navbar ---------- */
+
+.navbar {
+  border: none;
+  border-bottom: 4px solid var(--brand-ifcrs-red, #E63B17) !important;
 }
 
 .navbar-brand {
   font-size: 1em;
 }
 
-.button {
-  background-color: #E73A18;
-  border: #575756 2px solid;
-  color: white;
-  padding: 15px 32px;
+/* clamp() keeps the logo between sensible limits on phones and large screens. */
+.navbar-brand > img {
+  max-height: clamp(2rem, 5vw, 3.5rem);
+}
+
+.nav-link {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+/* ---------- Buttons ---------- */
+/* White on the logo red (#E63B17) is about 4.2:1, below the 4.5:1 AA minimum
+   for 16px text. red-dark (#B22C0F) is about 6.4:1 and still reads as the
+   same red, so buttons use it. */
+
+.button,
+#submit {
+  display: inline-block;
+  background-color: var(--brand-red-dark, #B22C0F);
+  border: 2px solid;
+  color: #fff;
   text-align: center;
   text-decoration: none;
+}
+
+.button {
   display: inline-block;
-  font-size: 16px;
-}
-
-.button:hover {
-  background-color: white;
-  color: #E73A18;
-}
-
-a { 
-  font-color: #E73A18;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.65rem 1.5rem;
+  background: var(--brand-red-dark, #B22C0F);
+  color: #fff;
   font-weight: 600;
-}
-
-div {
-  text-align: justify;
-  text-justify: inter-word;
+  text-decoration: none;
+  border-radius: 8px;
 }
 
 #submit {
-  background-color: #E73A18;
-  border: #575756 2px solid;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
   font-size: 24px;
+  cursor: pointer;
 }
 
+.button:hover,
 #submit:hover {
-  background-color: white;
-  color: #E73A18;
+  background: #8C230C;
+  color: #fff;
 }
+
+/* Dark outline: a light ring is nearly invisible against the white page. */
+.button:focus-visible,
+#submit:focus-visible,
+a.brand-button:focus-visible {
+  outline: 3px solid var(--brand-ifcrs-black, #111111);
+  outline-offset: 2px;
+}
+
+a.brand-button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.65rem 1.5rem;
+  background: var(--brand-red-dark, #B22C0F);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+a.brand-button:hover {
+  background: #8C230C;
+  color: #fff;
+}
+
+button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.65rem 1.5rem;
+  background: var(--brand-red-dark, #B22C0F);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* ---------- Figures ---------- */
 
 figcaption,
 .figure-caption {
+  margin-top: 0.5rem;
   text-align: center;
-  color: #575756;
+  color: var(--brand-grey-mid, #6B6B6B);
+  font-size: 0.9rem;
   font-weight: 600;
 }
 
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- Title banner ---------- */
+
+.quarto-title-banner {
+  background-size: cover;
+  background-position: center;
+  padding-block: clamp(4rem, 12vw, 9rem);
+}
+
+.quarto-title-banner,
+#title-block-header {
+  margin-bottom: 0;
+}
+
+.quarto-title-banner h1.title,
+.quarto-title-banner .subtitle {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0;
+  color: var(--brand-ifcrs-black);
+}
+
+.quarto-title-banner h1.title {
+  font-size: clamp(1.7rem, 4vw, 2.8rem);
+  line-height: 1.15;
+}
+
+.quarto-title-banner .subtitle {
+  margin-top: 0.5rem;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.quarto-title-meta-heading {
+  margin-top: 2.5rem;
+}
+
+.quarto-title-meta-contents {
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  font-size: clamp(4.5rem, 4vw, 2.8rem);
+  line-height: 1.5;
+  color: var(--brand-red-dark);
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+/* ---------- Cards ---------- */
+.quarto-grid-item.card {
+  border: 4px solid var(--brand-red-dark);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.quarto-grid-item.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Images: fill the space and crop neatly */
+.quarto-grid-item .card-img-top img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Typography */
+.quarto-grid-item .listing-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.quarto-grid-item .listing-description {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.quarto-grid-item .listing-author {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.quarto-grid-item .listing-date {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+/* Remove link underline across the whole card */
+a.quarto-grid-link,
+a.quarto-grid-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Category pills */
+.listing-categories .listing-category {
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem;
+  font-size: 0.75rem;
+}
+
+/* Spacing between cards */
+.quarto-listing-container-grid {
+  gap: 1.5rem;
+}
+
+/* ---------- Home page ---------- */
+
+/* Scoped to .home so other pages that use .grid are unaffected. */
+.home .grid {
+  column-gap: 3rem;
+  row-gap: 2rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+.home .grid p {
+  max-width: 68ch;
+}
+
+.home .grid img {
+  border-radius: 4px;
+}
+
+.lead p {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--brand-ifcrs-black, #111111);
+}
+
+section#upcoming-events {
+  margin-top: 3rem;
+}
+
+.events {
+  display: grid;
+  gap: 1rem;
+  max-width: 40rem;
+}
+
+.event {
+  border-left: 4px solid var(--brand-red-dark, #B22C0F);
+  padding: 0.25rem 0 0.25rem 1rem;
+}
+
+.event p {
+  margin: 0;
+}
+
+/* ---------- Panels ---------- */
+
+.panel {
+  font-size: 1.25rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.hero,
+.panel-light,
+.panel-dark {
+  position: relative;
+  isolation: isolate;   /* keeps the ::before behind the panel's content */
+}
+
+/* Full-bleed background: a viewport-wide layer centred on the panel, so the
+   content stays in its column while the colour or image runs edge to edge. */
+.hero::before,
+.panel-light::before,
+.panel-dark::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.panel-light::before { background: var(--brand-grey-light, #EDEDED); }
+.panel-dark::before  { background: var(--brand-grey-mid, #6B6B6B); }
+
+.panel-dark {
+  color: #fff;
+}
+
+/* ---------- Hero ---------- */
+/* Photo with a white wash that fades from 50% to solid white, with a grey
+   fallback if the image is missing. Text is dark, since the wash is light. */
+
+.hero-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img::before {
+  bottom: -1px;   /* overlaps the next panel by 1px to avoid a hairline seam */
+  background-color: var(--brand-grey-light, #F3F2F0);
+  background-image:
+    /* eased fade into the colour of the panel below */
+    linear-gradient(
+      to left,
+      color-mix(in srgb, var(--brand-grey-light, #F3F2F0)   50%, transparent) 40%,
+      color-mix(in srgb, var(--brand-grey-light, #F3F2F0)  95%, transparent) 90%,
+      var(--brand-grey-light) 50%
+    ),
+    /* light, even wash over the whole photo */
+    url("_img/facosites-tp.png");
+  background-position: right;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+/* Remove the gap between the navbar and the first panel. */
+#quarto-content,
+#quarto-document-content,
+main.content {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Cards ---------- */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.card-item img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* Space between council members */
+.panel .columns {
+  margin-bottom: 1.5rem;
+}
+
+/*---- council
+/* Stack of cards */
+.panel .members {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* One card per member: photo left, text right */
+.panel .member {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  border-left: 5px solid var(--brand-red-dark, #B22C0F);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+/* Circular, cropped photos of a consistent size */
+.panel .member-photo p {
+  margin: 0;
+}
+
+.panel .member-photo img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+/* Name, role, bio */
+.panel .member-body p {
+  margin: 0 0 0.6rem;
+}
+
+.panel .member-name {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.panel .member-role {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--brand-red-dark, #B22C0F);
+}
+
+.panel .member-body p:last-child {
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+/* Narrow screens: photo on top, centred, text underneath */
+@media (max-width: 640px) {
+  .panel .member {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 1.25rem;
+  }
+
+  .panel .member-photo img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .panel .member-body {
+    width: 100%;
+  }
+
+  .panel .member-name,
+  .panel .member-role {
+    text-align: center;
+  }
+}

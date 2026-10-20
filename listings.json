@@ -1,14 +1,24 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/news/obituary/2026-10-07-John-Jell/index.html",
+      "/news/obituary/2025-05-07-Jorn-Geister/index.html",
+      "/news/obituary/2025-01-09-Thomas-Stemann/index.html",
+      "/news/announcement/2024-02-29-Proceedings/index.html",
+      "/news/announcement/2023-12-29-Christmas/index.html",
+      "/news/announcement/2023-11-22-Council/index.html"
+    ]
+  },
+  {
     "listing": "/news/index.html",
     "items": [
-      "/news/2026-10-07-Obituary-John-Jell/index.html",
-      "/news/2025-05-07-Obituary-Jorn-Geister/index.html",
-      "/news/20250109-Tom/index.html",
-      "/news/2024-10-04-Tom/index.html",
-      "/news/20240229-Proceedings/index.html",
-      "/news/20231229-Christmas/index.html",
-      "/news/20231122-Council/index.html"
+      "/news/obituary/2026-10-07-John-Jell/index.html",
+      "/news/obituary/2025-05-07-Jorn-Geister/index.html",
+      "/news/obituary/2025-01-09-Thomas-Stemann/index.html",
+      "/news/announcement/2024-02-29-Proceedings/index.html",
+      "/news/announcement/2023-12-29-Christmas/index.html",
+      "/news/announcement/2023-11-22-Council/index.html"
     ]
   }
 ]

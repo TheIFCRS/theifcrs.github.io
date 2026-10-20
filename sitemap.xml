@@ -1,87 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ifcrs.org/news/2026-10-07-Obituary-John-Jell/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.989Z</lastmod>
+    <loc>https://ifcrs.org/index.html</loc>
+    <lastmod>2026-10-20T22:39:50.977Z</lastmod>
   </url>
   <url>
-    <loc>https://ifcrs.org/news/20240229-Proceedings/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.959Z</lastmod>
+    <loc>https://ifcrs.org/about/history/index.html</loc>
+    <lastmod>2026-10-20T22:39:50.966Z</lastmod>
   </url>
   <url>
-    <loc>https://ifcrs.org/news/20231229-Christmas/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.946Z</lastmod>
+    <loc>https://ifcrs.org/about/council/index.html</loc>
+    <lastmod>2026-10-20T22:39:50.958Z</lastmod>
   </url>
   <url>
-    <loc>https://ifcrs.org/news/20231122-Council/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.946Z</lastmod>
+    <loc>https://ifcrs.org/news/announcement/2023-12-29-Christmas/index.html</loc>
+    <lastmod>2026-10-20T22:39:51.023Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ifcrs.org/news/announcement/2024-02-29-Proceedings/index.html</loc>
+    <lastmod>2026-10-20T22:39:51.023Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ifcrs.org/news/obituary/2026-10-07-John-Jell/index.html</loc>
+    <lastmod>2026-10-20T22:39:51.053Z</lastmod>
   </url>
   <url>
     <loc>https://ifcrs.org/resources/index.html</loc>
-    <lastmod>2026-10-14T21:13:41.147Z</lastmod>
+    <lastmod>2026-10-20T22:39:51.193Z</lastmod>
   </url>
   <url>
-    <loc>https://ifcrs.org/gallery/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.823Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ifcrs.org/gdpr.html</loc>
-    <lastmod>2026-10-14T21:13:40.823Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ifcrs.org/meetings/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.944Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ifcrs.org/proceedings/index.html</loc>
-    <lastmod>2026-10-14T21:13:41.006Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ifcrs.org/history.html</loc>
-    <lastmod>2026-10-14T21:13:40.823Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ifcrs.org/council/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.498Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ifcrs.org/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.894Z</lastmod>
+    <loc>https://ifcrs.org/meetings/past/index.html</loc>
+    <lastmod>2026-10-20T22:39:51.021Z</lastmod>
   </url>
   <url>
     <loc>https://ifcrs.org/membership/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.945Z</lastmod>
+    <lastmod>2026-10-20T22:39:51.021Z</lastmod>
   </url>
   <url>
-    <loc>https://ifcrs.org/statute/index.html</loc>
-    <lastmod>2026-10-14T21:13:41.147Z</lastmod>
+    <loc>https://ifcrs.org/gdpr.html</loc>
+    <lastmod>2026-10-20T22:39:50.976Z</lastmod>
   </url>
   <url>
-    <loc>https://ifcrs.org/history/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.833Z</lastmod>
+    <loc>https://ifcrs.org/meetings/ecrs/index.html</loc>
+    <lastmod>2026-10-20T22:39:50.977Z</lastmod>
   </url>
   <url>
-    <loc>https://ifcrs.org/ifcrs/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.833Z</lastmod>
+    <loc>https://ifcrs.org/meetings/ifcrs/index.html</loc>
+    <lastmod>2026-10-20T22:39:50.977Z</lastmod>
   </url>
   <url>
-    <loc>https://ifcrs.org/ecrs/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.813Z</lastmod>
+    <loc>https://ifcrs.org/news/obituary/2025-01-09-Thomas-Stemann/index.html</loc>
+    <lastmod>2026-10-20T22:39:51.026Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ifcrs.org/news/obituary/2025-05-07-Jorn-Geister/index.html</loc>
+    <lastmod>2026-10-20T22:39:51.046Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ifcrs.org/news/announcement/2023-11-22-Council/index.html</loc>
+    <lastmod>2026-10-20T22:39:51.023Z</lastmod>
   </url>
   <url>
     <loc>https://ifcrs.org/news/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.989Z</lastmod>
+    <lastmod>2026-10-20T22:39:51.023Z</lastmod>
   </url>
   <url>
-    <loc>https://ifcrs.org/news/2024-10-04-Tom/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.952Z</lastmod>
+    <loc>https://ifcrs.org/about/statute/index.html</loc>
+    <lastmod>2026-10-20T22:39:50.966Z</lastmod>
   </url>
   <url>
-    <loc>https://ifcrs.org/news/20250109-Tom/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.963Z</lastmod>
+    <loc>https://ifcrs.org/proceedings/index.html</loc>
+    <lastmod>2026-10-20T22:39:51.067Z</lastmod>
   </url>
   <url>
-    <loc>https://ifcrs.org/news/2025-05-07-Obituary-Jorn-Geister/index.html</loc>
-    <lastmod>2026-10-14T21:13:40.959Z</lastmod>
+    <loc>https://ifcrs.org/gallery/index.html</loc>
+    <lastmod>2026-10-20T22:39:50.976Z</lastmod>
   </url>
 </urlset>

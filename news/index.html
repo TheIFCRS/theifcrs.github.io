@@ -30,42 +30,26 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="..//images/logo.png" rel="icon" type="image/png">
+<link href="..//_img/logo.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-0a3b0d67b89bcb64e002934184d4f392.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-bfed992faa3fd29cd937a2873c9e7d62.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-0a3b0d67b89bcb64e002934184d4f392.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-b3b05533756b65102542bf1d1302b2e4.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f050b060498074d55717287ea207baa6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-b3b05533756b65102542bf1d1302b2e4.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-473290951d46540a245a88b13ee5db1c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-d627f2659e00eae2ce646f332ca9ca62.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-473290951d46540a245a88b13ee5db1c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-6fbad533ce7ca274b6ec5218f7f66192.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-8abafa92ebf91a4056ce21f7226b8f07.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-6fbad533ce7ca274b6ec5218f7f66192.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -83,20 +67,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-all-news .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-all-news'] = new List('listing-all-news', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -141,13 +125,13 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="News – The International Fossil Coral and Reef Society">
-<meta property="og:image" content="https://ifcrs.org/images/logo.png">
+<meta property="og:title" content="News">
+<meta property="og:image" content="https://ifcrs.org/_img/logo.png">
 <meta property="og:site_name" content="The International Fossil Coral and Reef Society">
 <meta property="og:image:height" content="3943">
 <meta property="og:image:width" content="4213">
-<meta name="twitter:title" content="News – The International Fossil Coral and Reef Society">
-<meta name="twitter:image" content="https://ifcrs.org/images/logo.png">
+<meta name="twitter:title" content="News">
+<meta name="twitter:image" content="https://ifcrs.org/_img/logo.png">
 <meta name="twitter:creator" content="@LewisAlanJones">
 <meta name="twitter:site" content="@fossil_reef">
 <meta name="twitter:image-height" content="3943">
@@ -158,44 +142,58 @@ window.Quarto = {
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logo.png" alt="" class="navbar-logo light-content">
-    <img src="../images/logo.png" alt="" class="navbar-logo dark-content">
+    <img src="../_img/logo.png" alt="" class="navbar-logo light-content">
+    <img src="../_img/logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">The International Fossil Coral and Reef Society</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../council/index.html">
+    <a class="dropdown-item" href="../about/council/index.html">
  <span class="dropdown-text">Council</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../statute/index.html">
+    <a class="dropdown-item" href="../about/statute/index.html">
  <span class="dropdown-text">Statue</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../history/index.html">
+    <a class="dropdown-item" href="../about/history/index.html">
  <span class="dropdown-text">History</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-meetings" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Meetings</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-meetings">    
+        <li>
+    <a class="dropdown-item" href="../meetings/ecrs/index.html">
+ <span class="dropdown-text">5<sup>th</sup> Early Career Researcher Symposium</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../meetings/ifcrs/index.html">
+ <span class="dropdown-text">15<sup>th</sup> International Symposium</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../meetings/past/index.html">
+ <span class="dropdown-text">Past Meetings</span></a>
   </li>  
     </ul>
   </li>
@@ -203,25 +201,6 @@ window.Quarto = {
     <a class="nav-link" href="../membership/index.html"> 
 <span class="menu-text">Membership</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-meetings" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Meetings</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-meetings">    
-        <li>
-    <a class="dropdown-item" href="../ecrs/index.html">
- <span class="dropdown-text">5<sup>th</sup> Early Career Researcher Symposium of The International Fossil Coral and Reef Society</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../ifcrs/index.html">
- <span class="dropdown-text">15<sup>th</sup> International Symposium of The International Fossil Coral and Reef Society</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../meetings/index.html">
- <span class="dropdown-text">Past Meetings</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link active" href="../news/index.html" aria-current="page"> 
 <span class="menu-text">News</span></a>
@@ -242,6 +221,10 @@ window.Quarto = {
     <a class="nav-link" href="https://bsky.app/profile/ifcrs.bsky.social"> 
 <span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:bluesky" aria-label="Icon bluesky from fa6-brands Iconify.design set." title="Icon bluesky from fa6-brands Iconify.design set."></iconify-icon></span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="mailto:info@ifcrs.org"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="clarity:email-solid" aria-label="Icon email-solid from clarity Iconify.design set." title="Icon email-solid from clarity Iconify.design set."></iconify-icon></span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -250,178 +233,155 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">News</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="panel">
+<div class="title">
+<p>News</p>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-date-sort="1791936000000" data-listing-file-modified-sort="1792012420989" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="517" data-listing-title-sort="Obituary: John Jell" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Oct 14, 2026</span>
-</td>
-<td>
-<a href="../news/2026-10-07-Obituary-John-Jell/index.html" class="title listing-title">Obituary: John Jell</a>
-</td>
-<td>
-<span class="listing-author">Greggory Webb &amp; Markus Aretz </span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-date-sort="1746576000000" data-listing-file-modified-sort="1792012420959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3629" data-listing-title-sort="Obituary: Jörn Geister" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">May 7, 2025</span>
-</td>
-<td>
-<a href="../news/2025-05-07-Obituary-Jorn-Geister/index.html" class="title listing-title">Obituary: Jörn Geister</a>
-</td>
-<td>
-<span class="listing-author">Bernard Lathuilière, Université de Lorraine, CNRS, GeoRessources, 54000, Nancy, France</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-date-sort="1736380800000" data-listing-file-modified-sort="1792012420963" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="690" data-listing-title-sort="Celebrating his reef spirit - Dr. Thomas Stemann" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Jan 9, 2025</span>
-</td>
-<td>
-<a href="../news/20250109-Tom/index.html" class="title listing-title">Celebrating his reef spirit - Dr.&nbsp;Thomas Stemann</a>
-</td>
-<td>
-<span class="listing-author">Nancy Budd, Emeritus Professor, University of Iowa</span>
-</td>
-
-</tr>
-
-<tr data-index="3" data-listing-date-sort="1728000000000" data-listing-file-modified-sort="1792012420952" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="238" data-listing-title-sort="Thomas Stemann" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Oct 4, 2024</span>
-</td>
-<td>
-<a href="../news/2024-10-04-Tom/index.html" class="title listing-title">Thomas Stemann</a>
-</td>
-<td>
-<span class="listing-author">IFCRS Council</span>
-</td>
-
-</tr>
-
-<tr data-index="4" data-listing-date-sort="1709164800000" data-listing-file-modified-sort="1792012420959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290" data-listing-title-sort="IFCRS Conference Proceedings" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Feb 29, 2024</span>
-</td>
-<td>
-<a href="../news/20240229-Proceedings/index.html" class="title listing-title">IFCRS Conference Proceedings</a>
-</td>
-<td>
-<span class="listing-author">Jarek Stolarski</span>
-</td>
-
-</tr>
-
-<tr data-index="5" data-listing-date-sort="1703808000000" data-listing-file-modified-sort="1792012420946" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="508" data-listing-title-sort="Happy holidays and New Year 2024" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Dec 29, 2023</span>
-</td>
-<td>
-<a href="../news/20231229-Christmas/index.html" class="title listing-title">Happy holidays and New Year 2024</a>
-</td>
-<td>
-<span class="listing-author">Jarek Stolarski and Nadia Santodomingo</span>
-</td>
-
-</tr>
-
-<tr data-index="6" data-listing-date-sort="1700611200000" data-listing-file-modified-sort="1792012420946" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="619" data-listing-title-sort="IFCRS Council 2023--2027" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Nov 22, 2023</span>
-</td>
-<td>
-<a href="../news/20231122-Council/index.html" class="title listing-title">IFCRS Council 2023–2027</a>
-</td>
-<td>
-<span class="listing-author">Lewis A. Jones</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
+<div id="listing-all-news" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1791936000000" data-listing-file-modified-sort="1792535991053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="514">
+<a href="../news/obituary/2026-10-07-John-Jell/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../news/obituary/2026-10-07-John-Jell/IMG001.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Obituary: John Jell
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Greggory Webb, Markus Aretz
+</div>
+<div class="listing-date">
+October 14, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1746576000000" data-listing-file-modified-sort="1792535991046" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3628">
+<a href="../news/obituary/2025-05-07-Jorn-Geister/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../news/obituary/2025-05-07-Jorn-Geister/jorn1.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Obituary: Jörn Geister
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Bernard Lathuilière
+</div>
+<div class="listing-date">
+May 7, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1736380800000" data-listing-file-modified-sort="1792535991026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="690">
+<a href="../news/obituary/2025-01-09-Thomas-Stemann/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../news/obituary/2025-01-09-Thomas-Stemann/tom2.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Obituary: Thomas Stemann
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Nancy Budd
+</div>
+<div class="listing-date">
+January 9, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1709164800000" data-listing-file-modified-sort="1792535991023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
+<a href="../news/announcement/2024-02-29-Proceedings/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../news/announcement/2024-02-29-Proceedings/proceedings.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Conference Proceedings: 14<sup>th</sup> Symposium of the International Fossil Coral and Reef Society
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Jarek Stolarski
+</div>
+<div class="listing-date">
+February 29, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-date-sort="1703808000000" data-listing-file-modified-sort="1792535991023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="508">
+<a href="../news/announcement/2023-12-29-Christmas/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img loading='lazy' src="../_img/logo.png" style="height: 200px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Happy holidays 2024
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Jarek Stolarski and Nadia Santodomingo
+</div>
+<div class="listing-date">
+December 29, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-date-sort="1700611200000" data-listing-file-modified-sort="1792535991023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="616">
+<a href="../news/announcement/2023-11-22-Council/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../news/announcement/2023-11-22-Council/council.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+International Fossil Coral and Reef Society Council 2023–2027
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Lewis A. Jones
+</div>
+<div class="listing-date">
+November 22, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</div>
+</div>
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -831,17 +791,11 @@ window.Quarto = {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Copyright 2025, IFCRS</p>
+<p>© Copyright 2026, IFCRS</p>
 </div>   
     <div class="nav-footer-center">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/profile/ifcrs.bsky.social">
-<p><iconify-icon role="img" inline="" icon="fa6-brands:bluesky" aria-label="Icon bluesky from fa6-brands Iconify.design set." title="Icon bluesky from fa6-brands Iconify.design set."></iconify-icon></p>
-</a>
-  </li>  
-</ul>
-    </div>
+<p><a href="mailto:info@ifcrs.org">Contact Us</a></p>
+</div>
     <div class="nav-footer-right">
 <p>The International Fossil Coral and Reef Society</p>
 </div>
