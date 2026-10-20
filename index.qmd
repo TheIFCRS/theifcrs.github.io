@@ -1,44 +1,50 @@
 ---
-title: "The International Fossil Coral and Reef Society"
-title-block-banner-color: white
-title-block-banner: images/banner.jpg
+pagetitle: "The International Fossil Coral and Reef Society"
+title-block-banner: true
+listing:
+  id: latest-news
+  contents: 
+    - "news/event/"
+    - "news/announcement/"
+    - "news/obituary/"
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  image-height: 220px
+  max-description-length: 100
+  date-format: long
+  categories: false
+  fields: [image, date, title, author]
+  max-items: 3
+  image-placeholder: images/logo.png
 page-layout: full
 ---
-<style>
-h1.title {
-  color: white;
-  background-color: black;
-  padding: 10px 15px;
-  opacity: 0.85;
-  display: inline-block; /* Optional: makes background wrap just the text */
-}
-</style>
 
-# Welcome
+::: {.panel .panel-light .hero-img}
 
-::: {.grid}
+::: {.title}
+The International Fossil Coral and Reef Society
+:::
 
-::: {.g-col-7}
+::: {.lead}
+> The Society promotes and shares research on fossil corals, sponges, and reefs, and has done so for over fifty years.
+:::
 
-The International Fossil Coral and Reef Society (IFCRS) was founded in the early 1970s under the name 'The International Association for the Study of Fossil Cnidaria and Sponges'. The Society's mission is to promote and disseminate research on fossil corals, sponges, and reefs in the broadest sense. 
+The International Fossil Coral and Reef Society (IFCRS) was founded in the early 1970s under the name '**The International Association for the Study of Fossil Cnidaria and Sponges**'. 
 
-The Society's flagship event is an international symposium held every four years. We also host an annual online Early-Career Researcher symposium and periodic lecture series.
+We host an international symposium every four years and an annual online Early Career Researcher symposium. 
 
-The IFCRS is an all volunteer society and has no membership fees (it is free to join!). The Society has a long history of being a welcoming, supportive, and friendly organisation. Many of our members have made lifelong friends and colleagues through the Society.
+We are an all-volunteer society and free to join. We have a long history of being welcoming, supportive, and friendly, and many of our members have made lifelong friends and colleagues through the Society.
 
-[JOIN US](membership/index.qmd){.button}
+[Join the Society](membership/index.qmd){.brand-button} [Attend our Events](meetings/ifcrs/index.qmd){.brand-button} [Latest News](#latest-news){.brand-button}
 
 :::
 
-::: {.g-col-5}
-![](./images/Red_Sea_Pleistocene.jpg){width="100%"}
-*Pleistocene fossil coral reef from the Red Sea.*
+:::  {.panel}
 
+# Latest News
+
+::: {#latest-news}
 :::
 
 :::
-
-# Upcoming events
-
-- 5^th^ Early Career Researcher Symposium of The International Fossil Coral and Reef Society, Online (2026)
-- 15^th^ International Symposium of The International Fossil Coral and Reef Society in Toulouse, France (2027)

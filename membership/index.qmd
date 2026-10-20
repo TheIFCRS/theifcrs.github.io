@@ -1,7 +1,12 @@
 ---
-title: "IFCRS - Membership Application"
-title-block-banner: true
+pagetitle: "Membership Application"
 ---
+
+:::  {.panel}
+
+::: {.title}
+Membership Application
+:::
 
 The International Fossil Coral and Reef Society (IFCRS) welcomes anyone interested in fossil corals, sponges and reef ecosystems in the broadest sense. Researchers and students are the core of our Society, but general enthusiasts are also warmly encouraged to join our growing community.
 
@@ -69,7 +74,7 @@ Please include at least two keywords separated by a comma, e.g. taxonomy, biogeo
 
 <p>**General Data Protection Regulation**</p>
 
-By submitting this form, you confirm to have read the [GDPR terms and conditions](../gdpr.qmd) and the [Statue of the IFCRS](../statute/index.qmd) and to agree to them.
+By submitting this form, you confirm to have read the [GDPR terms and conditions](../gdpr.qmd) and the [Statue of the IFCRS](../about/statute/index.qmd) and to agree to them.
 
 <select id="confirm" name="Confirm"> <option value="Unselected"></option> <option value="Confirm">I agree and confirm</option> </select>
 
@@ -78,3 +83,5 @@ Submit
 </button>
 
 </form>
+
+:::

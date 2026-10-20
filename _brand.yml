@@ -1,49 +1,71 @@
 meta:
-  name: The International Fossil Coral and Reef Society
-  link: https://ifcrs.org
-  
-logo: 
+  name: International Fossil Coral and Reef Society
+  link: https://www.ifcrs.org   # update if the URL differs
+
+logo:
   images:
-    logo-image: images/logo.png
-  
+    ifcrs-logo:
+      path: images/logo-ifcrs.png
+      alt: IFCRS logo, a red ring with black radiating coral-like shards and the letters IFCRS
+  small: ifcrs-logo
+  medium: ifcrs-logo
+  large: ifcrs-logo
+
 color:
   palette:
-    tomato: "#E73A18"
-    light-blue: "#BFE0E2"
-    mid-blue: "#98D3DC"
-    dark-blue: "#64BDD8"
-    light-pink: "#E4BEDB"
-    dark-pink: "#CDA6C5"
-    light-green: "#56B367"
-    dark-green: "#0D725A"
-    light-peach: "#F18661"
-    dark-peach: "#DB755A"
-    yellow: "#FEC703"
-    light-orange: "#F39200"
-    dark-orange: "#ED8D3A"
-    beige: "#EACDB9"
-    brown: "#704C32"
-    light-grey: "#EBEBEB"
-    mid-grey: "#C6C5C4"
-    dark-grey: "#575756"
-    black: "#1D1D1B"
+    # sampled from the logo
+    ifcrs-red: "#E63B17"
+    ifcrs-black: "#111111"
     white: "#FFFFFF"
+    # derived tints and shades
+    red-dark: "#B22C0F"
+    red-tint: "#FBE9E4"
+    grey-light: "#F4F2F0"
+    grey-mid: "#6B6B6B"
+    # supporting accent (deep reef teal) that sits well beside the red
+    reef-teal: "#1F6F78"
+  foreground: ifcrs-black
   background: white
-  foreground: dark-grey
-  primary: light-grey
-  secondary: dark-green
+  primary: grey-light
+  secondary: grey-mid
+  tertiary: reef-teal
+  success: "#2E7D4F"
+  info: reef-teal
+  warning: "#E9A23B"
+  danger: red-dark
+  light: grey-light
+  dark: ifcrs-black
+  link: red-dark
 
 typography:
   fonts:
-    - family: Gill Sans
-      source: system
-    - family: Space Mono
+    # geometric sans, close to the logotype
+    - family: Jost
       source: google
-  base: 
-    family: Gill Sans
+      weight: [400, 500, 600, 700]
+      style: [normal, italic]
+    - family: Source Serif 4
+      source: google
+      weight: [400, 600]
+      style: [normal, italic]
+    - family: Fira Code
+      source: google
+  base:
+    family: Jost
     weight: 400
-  headings: Gill Sans
-  monospace: Space Mono
+    size: 1.05rem
+    line-height: 1.6
+  headings:
+    family: Jost
+    weight: 600
+    color: ifcrs-black
+    line-height: 1.2
+  monospace:
+    family: Fira Code
+    size: 0.9em
+  monospace-inline:
+    color: red-dark
+    background-color: red-tint
   link:
-    color: tomato
-    decoration: underline
+    color: red-dark
+    decoration: none

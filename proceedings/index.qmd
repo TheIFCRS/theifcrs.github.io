@@ -1,7 +1,12 @@
 ---
-title: "Conference Proceedings"
-title-block-banner: true
+pagetitle: "Conference Proceedings"
 ---
+
+:::  {.panel .hero-img}
+
+::: {.title}
+Conference Proceedings
+:::
 
 -   [Bosellini FR, Papazzoni CA, Vescogni A (eds) 2020. Paleo-archives of Cnidaria and Porifera in space and time. Bollettino della Società Paleontologica Italiana, 59/4, 183-354.](proc-2020.pdf)
 
@@ -26,3 +31,5 @@ title-block-banner: true
 -   [Chevalier J-P (ed) 1977. Second Symposium International sur les coraux et récifs coralliens fossiles, Paris, 1975. Mémoires du B.R.G.M., 89, 542 pp.](https://ia904708.us.archive.org/18/items/palaeontographic541984pale/palaeontographic541984pale.pdf)
 
 -   Sokolov BS, Dubatolov VN, Ivanovski AB (eds) 1974. 1975. Ancient Cnidaria. Academy of Sciences USSR, Siberian Branch, Transactions of the Institute of Geology and Geophysics, 201, 364 pp., 202, 280 pp.
+
+:::

@@ -1,7 +1,12 @@
 ---
-title: "Gallery"
-title-block-banner: true
+pagetitle: "Gallery"
 ---
+
+:::  {.panel}
+
+::: {.title}
+Gallery
+:::
 
 ### Chęciny, Poland - 2023
 
@@ -60,6 +65,8 @@ Delegate group photo - 11^th^ International Symposium on Fossil Cnidaria and Por
 ![](images/Jell_Debrenne2011.JPG)
 
 John Jell and Françoise Debrenne, both awarded with the Henri Milne Edwards Medal for their major contributions on the study of the fossil Cnidaria and Porifera - August 2011, Liège, Belgium.
+
+:::
 
 :::
 

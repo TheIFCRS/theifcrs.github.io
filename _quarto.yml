@@ -4,40 +4,42 @@ project:
 
 website:
   page-navigation: false
+  search: false
   title: "The International Fossil Coral and Reef Society"
   description: "All things fossil corals, sponges, and reef ecosystems in the broadest sense"
   site-url: https://ifcrs.org
-  repo-url: https://github.com/TheIFCRS/IFCRS/tree/gh-pages
+  repo-url: https://github.com/TheIFCRS/theifcrs.github.io
   open-graph:
-    image: "/images/logo.png"
+    image: "/_img/logo.png"
   twitter-card:
-    image: "/images/logo.png"
+    image: "/_img/logo.png"
     creator: "@LewisAlanJones"
     site: "@fossil_reef"
-  favicon: "/images/logo.png"
-  image: "/images/twitter-card.png"
+  favicon: "/_img/logo.png"
+  image: "/_img/twitter-card.png"
   navbar:
     title: "The International Fossil Coral and Reef Society"
-    logo: "/images/logo.png"
+    logo: "/_img/logo.png"
     pinned: true
     right:
-      - href: index.qmd
-        text: Home
       - text: About
         menu:
-           - href: council/index.qmd
+           - href: about/council/index.qmd
              text: Council
-           - href: statute/index.qmd
+           - href: about/statute/index.qmd
              text: Statue
-           - href: history/index.qmd
+           - href: about/history/index.qmd
              text: History
-      - href: membership/index.qmd
-        text: Membership
       - text: Meetings
         menu:
-           - href: ecrs/index.qmd
-           - href: ifcrs/index.qmd
-           - href: meetings/index.qmd
+           - href: meetings/ecrs/index.qmd
+             text: "5^th^ Early Career Researcher Symposium"
+           - href: meetings/ifcrs/index.qmd
+             text:  "15^th^ International Symposium"
+           - href: meetings/past/index.qmd
+             text: Past Meetings
+      - href: membership/index.qmd
+        text: Membership
       - href: news/index.qmd
         text: News
       - href: gallery/index.qmd
@@ -49,16 +51,15 @@ website:
       - text: "{{< iconify fa6-brands:bluesky >}}"
         href: https://bsky.app/profile/ifcrs.bsky.social
         aria-label: "Bluesky"
+      - text: "{{< iconify clarity:email-solid >}}"
+        href: "mailto:info@ifcrs.org"
 
 
   page-footer:
     border: true
     right: "The International Fossil Coral and Reef Society"
-    left: "&copy; Copyright 2025, IFCRS"
-    center:
-      - text: "{{< iconify fa6-brands:bluesky >}}"
-        href: https://bsky.app/profile/ifcrs.bsky.social
-        aria-label: "Bluesky"
+    left: "&copy; Copyright 2026, IFCRS"
+    center: "<a href='mailto:info@ifcrs.org'>Contact Us</a>"
     background: "lightgrey"
 
 format:

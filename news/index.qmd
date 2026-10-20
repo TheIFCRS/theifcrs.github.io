@@ -1,9 +1,25 @@
 ---
-title: "News"
-title-block-banner: true
+pagetitle: "News"
 listing:
+  id: "all-news"
   sort: "date desc"
-  type: table
+  type: grid
+  grid-columns: 3
+  image-height: 200px
+  max-description-length: 100
+  date-format: long
   categories: false
-  image-placeholder: ../images/logo.png
+  fields: [image, date, title, author]
+  image-placeholder: ../_img/logo.png
 ---
+
+:::  {.panel}
+
+::: {.title}
+News
+:::
+
+::: {#all-news}
+:::
+
+:::
