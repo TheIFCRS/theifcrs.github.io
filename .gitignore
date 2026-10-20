@@ -5,3 +5,4 @@
 resources/proc-1984.pdf
 
 **/*.quarto_ipynb
+/docs
