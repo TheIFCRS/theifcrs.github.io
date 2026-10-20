@@ -1,10 +1,9 @@
 ---
-title: "Registration open: 5th Early Career Researcher Symposium of The International Fossil Coral and Reef Society"
+title: "Registration open: 5th Early Career Researcher Symposium"
 title-block-banner: true
 author: "Lewis A. Jones"
 date: "2026-10-21"
+image: ../../logo.png
 ---
 
-Registration is now open for the 5^th^ Early Career Researcher Symposium of the International Fossil Coral and Reef Society.
-
-[More info...](../../../meetings/ecrs/index.qmd)
+Registration is now open for the 5^th^ Early Career Researcher Symposium of the International Fossil Coral and Reef Society. [More info...](../../../meetings/ecrs/index.qmd)
