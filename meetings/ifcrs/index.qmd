@@ -1,5 +1,5 @@
 ---
-pagetitle: "15^th^ International Symposium of The International Fossil Coral and Reef Society"
+pagetitle: "15th International Symposium of The International Fossil Coral and Reef Society"
 ---
 
 :::  {.panel}
