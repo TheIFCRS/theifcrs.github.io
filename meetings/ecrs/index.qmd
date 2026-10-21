@@ -1,12 +1,6 @@
 ---
-pagetitle: "5th Early Career Researcher Symposium of The International Fossil Coral and Reef Society"
+title: "5th Early Career Researcher Symposium of The International Fossil Coral and Reef Society"
 ---
-
-:::  {.panel}
-
-::: {.title}
-5^th^ Early Career Researcher Symposium of The International Fossil Coral and Reef Society
-:::
 
 📆 19 November 2026 | Online
 
@@ -29,5 +23,3 @@ We look forward to providing a meeting programme with an abstract booklet and fo
 On behalf of the organising committee, we are excited to see many of you there! If you have any questions, you can contact the ECRS2026 committee at [ifcrs.ecrs.2026@gmail.com](mailto:ifcrs.ecrs.2026@gmail.com).
 
 Alison Cribb, Amanda Godbold, Jood Al Aswad, and Claire Williams 🪸
-
-:::

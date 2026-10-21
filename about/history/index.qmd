@@ -1,14 +1,7 @@
 ---
-pagetitle: "History of the Society"
+title: "History of the Society"
+subtitle: "By Markus Aretz"
 ---
-
-:::  {.panel}
-
-::: {.title}
-History of the Society
-:::
-
-By Markus Aretz
 
 The roots of the society reach into the late 1960s. At that time, the country with the largest number of researchers in the field of fossil coelenterates was the Soviet Union. It might be unbelievable today, but the Second All Union Symposium on Fossil Corals of the USSR organized 1967 in Tallinn (now Estonia) was attended by 127 researchers, and only two of them were from a foreign country. During this meeting the decision was made to open the next meeting in 1971 to the international public.
 
@@ -70,5 +63,3 @@ The success of the society has always been thanks to its members and many people
 ### Acknowledgements
 
 It would have been impossible to write this text without the many information, memories, stories and documents shared by different members with me over the last 2 decades -- may it be after a more formal request, or stories told with a glass of beer or wine in the speakers' hand. It would not be fair to try to provide names of all the sources here, since this list would undoubtedly be more incomplete than complete. I just want to thank everybody who in one way or another contributed to this text.
-
-:::

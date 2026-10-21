@@ -1,12 +1,6 @@
 ---
-pagetitle: "Statute of the International Fossil Coral and Reef Society"
+title: "Statute of the International Fossil Coral and Reef Society"
 ---
-
-:::  {.panel}
-
-::: {.title}
-Statute of the International Fossil Coral and Reef Society
-:::
 
 **Adopted at the General Assembly in Modena, Italy (6^th^ September 2019)**
 
@@ -98,5 +92,3 @@ The web site of the Society is the only official medium for all communication an
 The duration of the Society is unlimited. 
 
 Dissolution of the Society can be pronounced by the General Assembly or by the membership through a mail ballot.
-
-:::

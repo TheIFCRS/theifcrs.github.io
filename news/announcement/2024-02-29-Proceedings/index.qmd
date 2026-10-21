@@ -1,7 +1,6 @@
 ---
 title: "Conference Proceedings: 14^th^ Symposium of the International Fossil Coral and Reef Society"
-title-block-banner: true
-description: "Call for submissions to *Acta Paleontologica Polonica*"
+subtitle: "Call for submissions to *Acta Paleontologica Polonica*"
 author: "Jarek Stolarski"
 date: "2024-02-29"
 image: proceedings.png

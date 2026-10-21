@@ -1,7 +1,6 @@
 ---
 title: "Obituary: Thomas Stemann"
-title-block-banner: true
-description: "Celebrating the reef spirit of our dear colleague and friend Dr Thomas Stemann (8^th^ October 1962 – 25^th^ September 2024)"
+subtitle: "Celebrating the reef spirit of our dear colleague and friend Dr Thomas Stemann (8^th^ October 1962 – 25^th^ September 2024)"
 author:
     - "Nancy Budd"
 date: "2025-01-09"

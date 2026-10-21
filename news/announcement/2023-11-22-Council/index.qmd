@@ -1,7 +1,6 @@
 ---
 title: "International Fossil Coral and Reef Society Council 2023--2027"
-title-block-banner: true
-description: "Introducing the new council"
+subtitle: "Introducing the new council"
 author: "Lewis A. Jones"
 date: "2023-11-22"
 image: council.jpeg

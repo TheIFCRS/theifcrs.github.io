@@ -1,12 +1,8 @@
 ---
-pagetitle: "Council Members"
+title: "Council Members"
 ---
 
 :::  {.panel}
-
-::: {.title}
-Council Members
-:::
 
 :::: {.members}
 

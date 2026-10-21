@@ -1,12 +1,6 @@
 ---
-pagetitle: "Resources"
+title: "Resources"
 ---
-
-:::  {.panel}
-
-::: {.title}
-Resources
-:::
 
 ### Databases
 
@@ -53,5 +47,3 @@ Treatise Online no. 80: Part F, Volume 2, Chapter 10: [Systematic Descriptions o
 [Oxford University Museum Collections Online](https://oumnh.ox.ac.uk/collections-online#/search) - Museum’s specimen, object and archive collections.
 
 [Estonian National Geocollections Database](https://geoloogia.info/search) - Browse the museum's geocollections.
-
-:::

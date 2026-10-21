@@ -1,12 +1,6 @@
 ---
-pagetitle: "Membership Application"
+title: "Membership Application"
 ---
-
-:::  {.panel}
-
-::: {.title}
-Membership Application
-:::
 
 The International Fossil Coral and Reef Society (IFCRS) welcomes anyone interested in fossil corals, sponges and reef ecosystems in the broadest sense. Researchers and students are the core of our Society, but general enthusiasts are also warmly encouraged to join our growing community.
 
@@ -83,5 +77,3 @@ Submit
 </button>
 
 </form>
-
-:::

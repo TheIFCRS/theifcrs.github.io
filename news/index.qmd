@@ -1,5 +1,5 @@
 ---
-pagetitle: "News"
+title: "News"
 listing:
   id: "all-news"
   sort: "date desc"
@@ -9,17 +9,10 @@ listing:
   max-description-length: 100
   date-format: long
   categories: false
-  fields: [image, date, title, author]
+  fields: [image, date, title, description, author]
   image-placeholder: ../_img/logo.png
+page-layout: full
 ---
 
-:::  {.panel}
-
-::: {.title}
-News
-:::
-
 ::: {#all-news}
-:::
-
 :::

@@ -1,9 +1,8 @@
 ---
 title: "Obituary: Jörn Geister"
-title-block-banner: true
 author: 
     - "Bernard Lathuilière"
-description: "Jörn Geister, just some words for a life"
+subtitle: "Jörn Geister, just some words for a life"
 date: "2025-05-07"
 image: jorn1.png
 toc: false

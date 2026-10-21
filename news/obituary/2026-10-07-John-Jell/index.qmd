@@ -1,7 +1,6 @@
 ---
 title: "Obituary: John Jell"
-title-block-banner: true
-description: "Remembering Professor John S. Jell: A Lifetime Dedicated to Corals, Reefs and Education"
+subtitle: "Remembering Professor John S. Jell: A Lifetime Dedicated to Corals, Reefs and Education"
 author: 
     - "Greggory Webb"
     - "Markus Aretz"

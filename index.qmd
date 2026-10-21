@@ -1,6 +1,5 @@
 ---
 pagetitle: "The International Fossil Coral and Reef Society"
-title-block-banner: true
 listing:
   id: latest-news
   contents: 
@@ -14,9 +13,9 @@ listing:
   max-description-length: 100
   date-format: long
   categories: false
-  fields: [image, date, title, author]
-  max-items: 3
-  image-placeholder: images/logo.png
+  fields: [image, date, title, description, author]
+  max-items: 6
+  image-placeholder: _img/logo.png
 page-layout: full
 ---
 

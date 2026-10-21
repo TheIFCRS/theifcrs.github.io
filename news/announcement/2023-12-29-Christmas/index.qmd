@@ -1,7 +1,6 @@
 ---
 title: "Happy holidays 2024"
-title-block-banner: true
-description: "A message from the IFCRS President and Secretary"
+subtitle: "A message from the IFCRS President and Secretary"
 author: "Jarek Stolarski and Nadia Santodomingo"
 date: "2023-12-29"
 ---

@@ -1,12 +1,6 @@
 ---
-pagetitle: "Past Meetings"
+title: "Past Meetings"
 ---
-
-:::  {.panel}
-
-::: {.title}
-Past Meetings
-:::
 
 |  |  |
 |--------------------|----------------------------------------------------|
@@ -28,6 +22,3 @@ Past Meetings
 | 1979 | **Warsaw, Poland** (3^rd^ International Symposium on Fossil Cnidaria and Porifera) |
 | 1975 | **Paris, France** (2^nd^ International Symposium on Fossil Cnidaria and Porifera) |
 | 1971 | **Novosibirsk, Russia** (1^st^ International Symposium on Fossil Cnidaria and Porifera) |
-
-
-:::
