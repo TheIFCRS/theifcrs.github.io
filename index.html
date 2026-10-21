@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
@@ -142,7 +142,7 @@ window.Quarto = {
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -233,12 +233,12 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
@@ -261,16 +261,19 @@ window.Quarto = {
 <h1>Latest News</h1>
 <div id="listing-latest-news" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1792540800000" data-listing-file-modified-sort="1792538380575" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1792540800000" data-listing-file-modified-sort="1792573365151" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
 <a href="./news/event/2026-10-20-ECRS/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./news/logo.png" class="thumbnail-image card-img" style="height: 220px;">
+<img loading="lazy" src="./_img/logo.png" class="thumbnail-image card-img" style="height: 220px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title" data-anchor-id="latest-news">
 Registration open: 5th Early Career Researcher Symposium
 </h5>
+<div class="card-text listing-description delink">
+<p>Register for the 5th IFCRS Early Career Researcher Symposium.</p>
+</div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Lewis A. Jones
@@ -282,7 +285,7 @@ October 21, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1791936000000" data-listing-file-modified-sort="1792538380608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="514">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1791936000000" data-listing-file-modified-sort="1792573365178" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="514">
 <a href="./news/obituary/2026-10-07-John-Jell/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -292,6 +295,9 @@ October 21, 2026
 <h5 class="no-anchor card-title listing-title">
 Obituary: John Jell
 </h5>
+<div class="card-text listing-description delink">
+It is our sad duty to report the passing of Prof.&nbsp;John S. Jell (Brisbane, Australia) on 7 October…
+</div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Greggory Webb, Markus Aretz
@@ -303,7 +309,7 @@ October 14, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1746576000000" data-listing-file-modified-sort="1792538380599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3628">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1746576000000" data-listing-file-modified-sort="1792573365171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3628">
 <a href="./news/obituary/2025-05-07-Jorn-Geister/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -313,12 +319,85 @@ October 14, 2026
 <h5 class="no-anchor card-title listing-title">
 Obituary: Jörn Geister
 </h5>
+<div class="card-text listing-description delink">
+Jörn GEISTER (Fig. 1) was born on October 29, 1940, in Würbenthal, in the Eastern Sudetes, amidst…
+</div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Bernard Lathuilière
 </div>
 <div class="listing-date">
 May 7, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1736380800000" data-listing-file-modified-sort="1792573365154" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="690">
+<a href="./news/obituary/2025-01-09-Thomas-Stemann/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./news/obituary/2025-01-09-Thomas-Stemann/tom2.jpg" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Obituary: Thomas Stemann
+</h5>
+<div class="card-text listing-description delink">
+Read as PDF
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Nancy Budd
+</div>
+<div class="listing-date">
+January 9, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-date-sort="1709164800000" data-listing-file-modified-sort="1792573365150" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
+<a href="./news/announcement/2024-02-29-Proceedings/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./news/announcement/2024-02-29-Proceedings/proceedings.png" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Conference Proceedings: 14<sup>th</sup> Symposium of the International Fossil Coral and Reef Society
+</h5>
+<div class="card-text listing-description delink">
+The International Fossil Coral and Reef Society (IFCRS) invites all participants of the 14<sup>th</sup> Sympos…<sup></sup><strong><em></em></strong>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Jarek Stolarski
+</div>
+<div class="listing-date">
+February 29, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-date-sort="1703808000000" data-listing-file-modified-sort="1792573365150" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="508">
+<a href="./news/announcement/2023-12-29-Christmas/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img loading='lazy' src="_img/logo.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Happy holidays 2024
+</h5>
+<div class="card-text listing-description delink">
+Dear members of IFCRS, colleagues and friends,
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Jarek Stolarski and Nadia Santodomingo
+</div>
+<div class="listing-date">
+December 29, 2023
 </div>
 </div>
 </div>
