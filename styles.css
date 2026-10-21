@@ -193,10 +193,11 @@ figcaption,
 
 .title {
   font-size: clamp(4.5rem, 4vw, 2.8rem);
+  font-weight: 300;
   line-height: 1.5;
   color: var(--brand-red-dark);
   padding-top: 2rem;
-  padding-bottom: 0rem;
+  padding-bottom: 0.5rem;
 }
 
 /* ---------- Cards ---------- */
@@ -310,7 +311,7 @@ section#upcoming-events {
   font-size: 1.25rem;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 4rem 1.5rem;
+  padding: 4rem 0rem;
   min-height: 100vh;
 }
 
