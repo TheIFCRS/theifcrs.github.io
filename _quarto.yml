@@ -27,9 +27,11 @@ website:
            - href: about/council/index.qmd
              text: Council
            - href: about/statute/index.qmd
-             text: Statue
+             text: Statute
            - href: about/history/index.qmd
              text: History
+           - href: about/membership/index.qmd
+             text: Membership
       - text: Meetings
         menu:
            - href: meetings/ecrs/index.qmd
@@ -38,8 +40,6 @@ website:
              text:  "15^th^ International Symposium"
            - href: meetings/past/index.qmd
              text: Past Meetings
-      - href: membership/index.qmd
-        text: Membership
       - href: news/index.qmd
         text: News
       - href: gallery/index.qmd

@@ -13,7 +13,7 @@ listing:
   max-description-length: 100
   date-format: long
   categories: false
-  fields: [image, date, title, description, author]
+  fields: [image, date, title, author]
   max-items: 6
   image-placeholder: _img/logo.png
 page-layout: full
@@ -35,7 +35,7 @@ We host an international symposium every four years and an annual online Early C
 
 We are an all-volunteer society and free to join. We have a long history of being welcoming, supportive, and friendly, and many of our members have made lifelong friends and colleagues through the Society.
 
-[Join the Society](membership/index.qmd){.brand-button} [Attend our Events](meetings/ifcrs/index.qmd){.brand-button} [Latest News](#latest-news){.brand-button}
+[Join the Society](about/membership/index.qmd){.brand-button} [Attend our Events](meetings/ifcrs/index.qmd){.brand-button} [Latest News](#latest-news){.brand-button}
 
 :::
 

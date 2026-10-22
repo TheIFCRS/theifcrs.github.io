@@ -6,4 +6,6 @@ date: "2026-10-21"
 image: ../../../_img/logo.png
 ---
 
-Registration is now open for the 5th Early Career Researcher Symposium of the International Fossil Coral and Reef Society. [More info…](../../../meetings/ecrs/)
+Registration is now open for the 5th Early Career Researcher Symposium of the International Fossil Coral and Reef Society.
+
+[More info...](../../../meetings/ecrs/){.brand-button}
