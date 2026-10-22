@@ -1,4 +1,5 @@
 ---
+pagetitle: "Statute"
 title: "Statute of the International Fossil Coral and Reef Society"
 ---
 
