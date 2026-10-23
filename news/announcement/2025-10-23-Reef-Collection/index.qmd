@@ -1,0 +1,27 @@
+---
+title: "Call for Papers: Reefs in a changing world: Perspectives from deep time"
+author: "Lewis A. Jones"
+date: "2026-10-23"
+image: hero.png
+---
+
+::: {.lead}
+*[npj Biodiversity](https://www.nature.com/collections/gaeijifehg)* is currently welcoming submissions to a special collection put together by Qijian Li, Nadia Santodomingo, and Lewis A. Jones on "Reefs in a changing world: Perspectives from deep time".
+:::
+
+🗓️ deadline: 21 October 2027  
+🔗 Link: [https://www.nature.com/collections/gaeijifehg](https://www.nature.com/collections/gaeijifehg)
+
+# Overview
+
+Reefs are among the most diverse, productive, and structurally complex ecosystems on Earth, yet they are increasingly threatened by rapid environmental change. Ocean warming, acidification, deoxygenation, sea-level change, pollution, and other anthropogenic pressures are transforming modern reefs at an unprecedented pace. Understanding how reef ecosystems respond to such perturbations — and the extent to which they can resist, reorganize, or recover from ecological disruption — is therefore an urgent scientific challenge. The geological record offers a unique long-term perspective on these questions, documenting hundreds of millions of years of reef evolution across climatic transitions, environmental crises, mass extinctions, and subsequent recoveries.
+
+Importantly, reefs have not always been synonymous with coral reefs. Throughout Earth history, reef construction has involved a remarkable diversity of organisms, including microbial communities, algae, archaeocyaths, sponges, stromatoporoids, corals, bryozoans, rudist bivalves, and other skeletal and non-skeletal builders. The ecological prominence of these groups has shifted repeatedly through time as a result of evolutionary innovations, biotic interactions, extinction events, and changes in climate and ocean chemistry. The decline of dominant reef builders has therefore not necessarily meant the permanent loss of reefs. Instead, many intervals of Earth history record profound ecological reorganization, shifts in reef architecture and ecosystem function, and the emergence of novel reef-building communities.
+
+The deep-time record thus offers a natural laboratory for studying the resilience, vulnerability, collapse, and recovery of reef ecosystems across timescales that cannot be observed directly today. Ancient episodes of environmental change reveal how reef biodiversity, community composition, geographic distribution, ecosystem structure, and reef-building capacity respond to disturbance, while modern reefs provide essential ecological and biological context for interpreting the fossil record. Integrating these complementary archives makes it possible to distinguish recurring patterns of reef change from responses specific to particular environmental or evolutionary contexts.
+
+This Collection brings together research examining the evolutionary and ecological dynamics of reef ecosystems from deep time to the present. We welcome contributions addressing the origin, diversification, turnover, collapse, recovery, and geographic restructuring of reefs and reef-building communities. Topics may include changes in reef builders through geological time; reef responses to climatic and environmental perturbation; extinction and post-extinction recovery; biodiversity and functional ecology; biotic interactions and ecosystem engineering; palaeobiogeographic dynamics; reef architecture and sedimentary records; evolutionary innovations; and comparisons between fossil and modern reef systems.
+
+We particularly encourage interdisciplinary studies integrating palaeontology, sedimentology, geochemistry, evolutionary biology, ecology, biogeography, quantitative approaches, and modern reef science. By bridging geological and contemporary perspectives, this Collection aims to advance a more comprehensive understanding of how reef ecosystems originate, persist, transform, and recover under environmental change — and how their long evolutionary history can inform trajectories of reefs in a rapidly changing world.
+
+This is a joint Collection across *npj Biodiversity*, *Nature Geoscience*, *Communications Earth & Environment*, *Communications Sustainability*, *npj Palaeoecosystems* and *Scientific Reports*. Please see the relevant journal webpages to check which article types the journals consider.
