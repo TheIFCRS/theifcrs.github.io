@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/news/index.html",
     "items": [
+      "/news/announcement/2025-10-23-Reef-Collection/index.html",
       "/news/event/2026-10-20-ECRS/index.html",
       "/news/obituary/2026-10-07-John-Jell/index.html",
       "/news/obituary/2025-05-07-Jorn-Geister/index.html",
@@ -12,8 +13,9 @@
     ]
   },
   {
-    "listing": "/news/index.html",
+    "listing": "/index.html",
     "items": [
+      "/news/announcement/2025-10-23-Reef-Collection/index.html",
       "/news/event/2026-10-20-ECRS/index.html",
       "/news/obituary/2026-10-07-John-Jell/index.html",
       "/news/obituary/2025-05-07-Jorn-Geister/index.html",
