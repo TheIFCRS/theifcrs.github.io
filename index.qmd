@@ -35,7 +35,7 @@ We host an international symposium every four years and an annual online Early C
 
 We are an all-volunteer society and free to join. We have a long history of being welcoming, supportive, and friendly, and many of our members have made lifelong friends and colleagues through the Society.
 
-[Join the Society](about/membership/index.qmd){.brand-button} [Attend our Events](meetings/ifcrs/index.qmd){.brand-button} [Latest News](#latest-news){.brand-button}
+[Join the Society](about/membership/index.qmd){.brand-button} [Attend the 15^th^ International Symposium](meetings/2027-international-meeting/index.qmd){.brand-button} [Latest News](#latest-news){.brand-button}
 
 :::
 

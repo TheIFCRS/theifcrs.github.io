@@ -3,6 +3,12 @@ project:
   output-dir: docs
 
 website:
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "**Announcement:** 15^th^ International Fossil Coral and Reef Society Symposium, Toulouse – France, Sept. 2027. [More details...](/meetings/2027-international-meeting/index.qmd)"
+    type: secondary
+    position: below-navbar
   page-navigation: false
   search: false
   title: "The International Fossil Coral and Reef Society"
@@ -22,6 +28,8 @@ website:
     logo: "/_img/logo.png"
     pinned: true
     right:
+      - href: meetings/2027-international-meeting/index.qmd
+        text:  "**15^th^ International Symposium**"
       - text: About
         menu:
            - href: about/council/index.qmd
@@ -34,10 +42,10 @@ website:
              text: Membership
       - text: Meetings
         menu:
-           - href: meetings/ecrs/index.qmd
-             text: "5^th^ Early Career Researcher Symposium"
-           - href: meetings/ifcrs/index.qmd
-             text:  "15^th^ International Symposium"
+           - href: meetings/2026-ecr-meeting/index.qmd
+             text: "5^th^ Early Career Researcher Meeting"
+           - href: meetings/2027-international-meeting/index.qmd
+             text:  "15^th^ International Meeting"
            - href: meetings/past/index.qmd
              text: Past Meetings
       - href: news/index.qmd
@@ -53,7 +61,6 @@ website:
         aria-label: "Bluesky"
       - text: "{{< iconify clarity:email-solid >}}"
         href: "mailto:info@ifcrs.org"
-
 
   page-footer:
     border: true
