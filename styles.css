@@ -196,8 +196,8 @@ figcaption,
   font-weight: 300;
   line-height: 1.5;
   color: var(--brand-red-dark);
-  padding-top: 2rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 /* ---------- Cards ---------- */
